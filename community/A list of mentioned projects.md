@@ -303,7 +303,6 @@ This time our guest is Billy Rennekamp, the grants manager at Interchain Foundat
 - [Forte](https://www.forte.io/): Economic Technology for Games.
 - [Curve Labs](https://www.curvelabs.eu/): Architecting cybernetic solutions for the distributed economy.
 - [IXO Foundation](https://ixo.foundation/): Webs of trust connect people, machines and software agents to share intelligence, coordinate local actions and deliver impacts with precision.
-- [IXO Foundation](https://ixo.foundation/): Webs of trust connect people, machines and software agents to share intelligence, coordinate local actions and deliver impacts with precision.
 - [Bitcoin Project](https://bitcoin.org/en/): Bitcoin uses peer-to-peer technology to operate with no central authority or banks.
 - [Solidity](https://soliditylang.org/): Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum.
 - [Ethereum](https://ethereum.org): Ethereum is a global, open-source platform for decentralized applications.
@@ -312,6 +311,27 @@ This time our guest is Billy Rennekamp, the grants manager at Interchain Foundat
 - [Agora](https://www.agora.vote/): Bringing voting systems into the digital age.
 - [Aragon](https://aragon.org/): Central points of failure are holding us back -- we're changing that.
 - [Stargate Upgrade](https://stargate.cosmos.network): Stargate is an upgrade of the three layers of the Cosmos stack.
+
+
+## Episode 15: [Tor Bair, privacy and secrets](https://www.citizencosmos.space/secret-network)
+In this episode we chat with Tor Bair from Secret Network. 
+- [Cosmos Network](https://cosmos.network/): Cosmos is an ecosystem of connected blockchains or 'the internet of blockchains'. It is the TCP/IP of web3. A truly decentralized communication protocol.
+- [All in Bits Inc aka Tendermint](https://tendermint.com/): Tendermint the company (which also does business as All in Bits Inc., a Delaware for-profit corporation) is the creator of Tendermint, a blockchain consensus project. 
+- [Monero](https://www.getmonero.org/): Monero is cash for a connected world. It’s fast, private, and secure. With Monero, you are your own bank. You can spend safely, knowing that others cannot see your balances or track your activity.
+- [Bitcoin Project](https://bitcoin.org/en/): Bitcoin uses peer-to-peer technology to operate with no central authority or banks.
+- [Ethereum](https://ethereum.org): Ethereum is a global, open-source platform for decentralized applications.
+- [zCASH](https://z.cash): Fast and confidential with low fees — built for Internet and mobile transactions.
+- [Ledger](https://ledger.com): A popular hardware wallet. 
+- [Intel SGX](https://software.intel.com/): Intel® Software Guard Extensions (Intel® SGX) is a set of instructions that increases the security of application code and data, giving them more protection from disclosure or modification.   
+- [Enigma](https://enigma.co/): Enigma builds and supports privacy-focused technologies and networks.   
+- [Kyber Network](https://kyber.network/): Kyber is a blockchain-based liquidity protocol that aggregates liquidity from a wide range of reserves, powering instant and secure token exchange in any decentralized application. 
+- [Andreas Antonopoulos](https://aantonop.com/): A Bitcoin expert and educator.   
+- [Secret Network](https://scrt.network/): Secret Network is a blockchain with privacy-preserving smart contracts. 
+- [Aave](https://aave.com/): Aave is an open source and non-custodial liquidity protocol for earning interest on deposits and borrowing assets.
+- [Ocean Protocol](https://oceanprotocol.com/): Data owners and consumers use Ocean Market app to publish, discover, and consume data assets in a secure, privacy-preserving fashion. OCEAN holders stake liquidity to data pools.
+- [Secret Foundation](https://www.secret.foundation/): The mission of Secret Foundation is to support the global adoption of open-source, privacy-centric technologies that help protect and empower users around the world.
+- [Decentralize This Podcast](https://blog.enigma.co/podcast/home): Enigma’s podcast “Decentralize This!” features guests from all over the decentralization space.
+- [Sharing Secrets Podcast](https://podcasts.apple.com/us/podcast/sharing-secrets-presented-by-secret-network/id1438776388): Evolution of Decentralize This Podcast.
 
 
 ## Episode 21: [Denizen Cosmos: Xmas special 2020](https://www.citizencosmos.space/dinezen-xmas)
