@@ -504,7 +504,9 @@ __Episode list:__
 
 ###### 28: Hashohi, analyzing crypto, web3 and coffee: [Website link](https://www.citizencosmos.space/hashoshi) | [Web3 link]()
 
-###### 29:Dean Tribble, Agoric, smart contracts & Cosmos: [Website link](https://www.citizencosmos.space/agoric) | [Web3 link]()
+###### 29: Dean Tribble, Agoric, smart contracts & Cosmos: [Website link](https://www.citizencosmos.space/agoric) | [Web3 link]()
+
+###### 30: Konstantin Lomashuk, P2P, staking and the challenges of success: [Website link](https://www.citizencosmos.space/p2p) | [Web3 link]()
 
 
 | # | Episode Name & Link | YouTube | Web3: cyber.page | Web3: Bitsong | Transcript |
