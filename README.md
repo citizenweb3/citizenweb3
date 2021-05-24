@@ -508,7 +508,9 @@ __Episode list:__
 
 ###### 30: Konstantin Lomashuk, P2P, staking and the challenges of success: [Website link](https://www.citizencosmos.space/p2p) | [Web3 link]()
 
+###### 31: David Park, Cosmostation, intuition & product development: [Website link](https://www.citizencosmos.space/cosmostation) | [Web3 link]()
 
-| # | Episode Name & Link | YouTube | Web3: cyber.page | Web3: Bitsong | Transcript |
+
+| # | Episode Name & Link | YouTube | Web3: cyber.page | Transcript |
 |---|---------|---------|------------|---------|----------|
-| 1 | [Gavin from Figment Network & governance](https://www.citizencosmos.space/figment-network-governance) | [YouTube](https://www.youtube.com/watch?v=30DCKBWhUCI) | [cyber.page]() | [BitSong](https://demo.bitsong.io/track/158) | [Transcript]() |
+| 1 | [Gavin from Figment Network & governance](https://www.citizencosmos.space/figment-network-governance) | [YouTube](https://www.youtube.com/watch?v=30DCKBWhUCI) | [cyber.page]() | [Transcript]() |
