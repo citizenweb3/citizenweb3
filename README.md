@@ -510,6 +510,8 @@ __Episode list:__
 
 ###### 31: David Park, Cosmostation, intuition & product development: [Website link](https://www.citizencosmos.space/cosmostation) | [Web3 link]()
 
+###### 32: Wilson Withiam, Messari, decentralization and research: [Website link](https://www.citizencosmos.space/messari) | [Web3 link]()
+
 
 | # | Episode Name & Link | YouTube | Web3: cyber.page | Transcript |
 |---|---------|---------|------------|---------|----------|
