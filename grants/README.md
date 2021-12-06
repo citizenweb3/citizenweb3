@@ -1,6 +1,6 @@
-This will be the grant page
+## Grants
 
-- ICF
-- Gitcoin
-- Patreon
+- ICF: irrelevant for now
+- [Gitcoin](https://gitcoin.co/grants/1113/citizen-cosmos-web3-brand): Revive
+- Patreon: Create
 - Others
