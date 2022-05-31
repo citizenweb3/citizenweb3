@@ -484,35 +484,3 @@ __Episode list:__
 
 </details>
 
-###### 19: Zarko Milosevic, Tendermint, consensus and verification: [Website link](https://www.citizencosmos.space/zarko) | [Web3 link]()
-
-###### 20: Tushar Aggarwal, Persistence and Institutional DeFi: [Website link](https://www.citizencosmos.space/persistence) | [Web3 link]()
-
-###### 21: Denizen Cosmos: Xmas special 2020: [Website link](https://www.citizencosmos.space/dinezen-xmas) | [Web3 link]()
-
-###### 22: Ian and Jacob, Secret Nodes and Privacy: [Website link](https://www.citizencosmos.space/secret-nodes) | [Web3 link]()
-
-###### 23: Dan Edlebeck, Decentralized VPN's and privacy: [Website link](https://www.citizencosmos.space/exidio) | [Web3 link]()
-
-###### 24: Greg Osuri, Akash, DeCloud and UX: [Website link](https://www.citizencosmos.space/akash) | [Web3 link]()
-
-###### 25: Reda Berrehili, Ki Foundation: [Website link](https://www.citizencosmos.space/ki) | [Web3 link]()
-
-###### 26: Chjango Unchained, community and ecosystem: [Website link](https://www.citizencosmos.space/chjango) | [Web3 link]()
-
-###### 27: Tess Rinearson, software development and Interchain: [Website link](https://www.citizencosmos.space/tess) | [Web3 link]()
-
-###### 28: Hashohi, analyzing crypto, web3 and coffee: [Website link](https://www.citizencosmos.space/hashoshi) | [Web3 link]()
-
-###### 29: Dean Tribble, Agoric, smart contracts & Cosmos: [Website link](https://www.citizencosmos.space/agoric) | [Web3 link]()
-
-###### 30: Konstantin Lomashuk, P2P, staking and the challenges of success: [Website link](https://www.citizencosmos.space/p2p) | [Web3 link]()
-
-###### 31: David Park, Cosmostation, intuition & product development: [Website link](https://www.citizencosmos.space/cosmostation) | [Web3 link]()
-
-###### 32: Wilson Withiam, Messari, decentralization and research: [Website link](https://www.citizencosmos.space/messari) | [Web3 link]()
-
-
-| # | Episode Name & Link | YouTube | Web3: cyber.page | Transcript |
-|---|---------|---------|------------|---------|----------|
-| 1 | [Gavin from Figment Network & governance](https://www.citizencosmos.space/figment-network-governance) | [YouTube](https://www.youtube.com/watch?v=30DCKBWhUCI) | [cyber.page]() | [Transcript]() |
