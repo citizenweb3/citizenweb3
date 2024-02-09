@@ -1,19 +1,11 @@
-# Citizen Cosmos branding & identity
+## Citizen Web3 branding 
 
 ### Logo
 
-- [.JPG Logo](https://github.com/citizen-cosmos/Citizen-Cosmos/blob/master/project/branding/CitizenCosmosLogo.jpg)
-- [.JPG Logo 2](https://github.com/citizen-cosmos/Citizen-Cosmos/blob/master/project/branding/CC-LogoTwitterTG.jpg): slightly altered text to suit SM
-- [.PNG Logo](https://github.com/citizen-cosmos/Citizen-Cosmos/blob/master/project/branding/citizencosmostwitter.png)
-- [.SVG Logo](https://github.com/citizen-cosmos/Citizen-Cosmos/blob/master/project/branding/CC_logo.svg)
+- [CW3 Logo, 128*128 px, png](https://github.com/citizenweb3/citizenweb3/blob/master/project/branding/citizen-web-3-logo-128-128.png)
+- [CW3 Logo, 128*128 px, png, no background](https://github.com/citizenweb3/citizenweb3/blob/master/project/branding/Citizen-web3-logo128-128-no-backround.png)
 
-### Covers
+### Old Citizen Cosmos branding
 
-- [.JPG YouTube Episode cover](https://github.com/citizen-cosmos/Citizen-Cosmos/blob/master/project/branding/CC%20YouTube%20for%20episodes.jpg)
-- [.JPG YouTube CWJ cover](https://github.com/citizen-cosmos/Citizen-Cosmos/blob/master/project/branding/CC%20YouTube%20CWJ%20special%20edition.jpg)
+- [Old logos](https://github.com/citizenweb3/citizenweb3/tree/master/project/branding/old)
 
-### Others
-
-- [.PNG Robot pic wihtout background](https://github.com/citizen-cosmos/Citizen-Cosmos/blob/master/project/branding/Robot%20no%20background.png)
-- [TG stickers]()
-- [Citizen Cosmos Mission and aim](https://github.com/citizen-cosmos/Citizen-Cosmos/blob/master/roadmap/roadmap.md#mission)
