@@ -1,5 +1,4 @@
 ## Awesome Blockchain, Crypto, Tech & Macroeconomics Related podcasts 
-- [Citizen Cosmos](https://podcasts.apple.com/us/podcast/citizen-cosmos/id1510241147) Citizen Cosmos is more than just a podcast about the masterminds behind the Cosmos blockchain ecosystem, web3 builders, their technological ambitions and personalities.  | **Serj and Anna**
 - [Sharing secrets](https://podcasts.apple.com/us/podcast/sharing-secrets-presented-by-secret-network/id1438776388) A new series from the Secret Foundation - explores the biggest secrets of the blockchain and cryptocurrency space. | **Tor Bair**
 - [Interchain.FM](https://podcasts.apple.com/us/podcast/interchain-fm/id1487731469) A monthly podcast that uncovers the vibrant world of bleeding edge research being done in the pursuit of anti-censorship technologies. | **Christopher Goes, Chjango Unchained**
 - [Unchained](https://podcasts.apple.com/us/podcast/sharing-secrets-presented-by-secret-network/id1438776388) Crypto assets and blockchain technology are about to transform every trust-based interaction of our lives, from financial services to identity to the Internet of Things.| **Laura Shin**
