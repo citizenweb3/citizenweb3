@@ -7,7 +7,7 @@
 
 ### Podcast
 
--[CW3 Guest Invite Poster, png](https://github.com/citizenweb3/citizenweb3/blob/master/project/branding/podcast_guest_invite_poster_png.png)
+- [CW3 Guest Invite Poster, png](https://github.com/citizenweb3/citizenweb3/blob/master/project/branding/podcast_guest_invite_poster_png.png)
 
 ### Old Citizen Cosmos branding
 
