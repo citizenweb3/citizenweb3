@@ -24,7 +24,6 @@
      - Rep of POS privacy blockcahisn we validate or looking to (4-5) (aztec, namada, etc)
      - Invite a crypto privacy advocate or influencer with a strong Twitter presence (e.g., someone with 10k+ followers active in privacy discussions) (1-2)
      - Action plan? DMs? Telegram?
-   
 
 3. **Promotion**:
    -  Encourage retweets and comments by asking followers to share their privacy concerns in crypto?
@@ -42,6 +41,9 @@
 - **Primary Speakers**:
   - name A
 - **Audience Invitations**:
-  - Tag privacy-focused accounts (e.g., @ZcashFoundation, @SecretNetwork) in promo posts.
-  - Invite Citizen Web3’s Twitter followers and GitHub contributors.
-  - Reach out to crypto communities on Twitter (e.g., #Web3, #Blockchain) to join.
+  - Tag privacy-focused accounts (e.g., @ZcashFoundation, @SecretNetwork) in promo posts
+  - Invite Citizen Web3’s Twitter followers and GitHub contributors
+  - Reach out to crypto communities on Twitter (e.g., #Web3, #Blockchain) to join
+
+-------------------
+ideas: seth, francesco OR fluffy, logos (Sterlin?), actec (zatoshi), namada (chris), balaji, naomi, paul miller? Mykola Siusko, Tor secret? darkifi (Amir Taaki), roman storm, citrea?
