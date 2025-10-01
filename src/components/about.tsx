@@ -4,6 +4,7 @@ import BlockText from '@/components/block-text';
 import Image from 'next/image';
 import Card from '@/components/card';
 import Achivements from '@/components/achivements';
+import Link from 'next/link';
 
 const partners = [
   {
@@ -72,23 +73,23 @@ const About: FC = () => {
           <div className="text-2xl">Contacts</div>
           <div>
             <div className="*:w-10 *:h-auto *:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-8 flex items-center justify-center ">
-              <a href="https://github.com/citizenweb3">
+              <Link href="https://github.com/citizenweb3">
                 <Image src="/github.svg" alt="github" width={80} height={80} />
-              </a>
-              <a href="https://x.com/citizen_web3">
+              </Link>
+              <Link href="https://x.com/citizen_web3">
                 <Image src="/twitter.svg" alt="twitter" width={80} height={80} />
-              </a>
-              <a href="https://t.me/citizenweb3">
+              </Link>
+              <Link href="https://t.me/citizenweb3">
                 <Image src="/telegram.svg" alt="telegram" width={80} height={80} />
-              </a>
+              </Link>
             </div>
             <div className="*:w-10 *:h-auto *:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-8 flex items-center justify-center ">
-              <a href="https://validatorinfo.com/blog/">
+              <Link href="https://validatorinfo.com/blog/">
                 <Image src="/edit.svg" alt="telegram" width={80} height={80} />
-              </a>
-              <a href="mailto:ping@validatorinfo.com">
+              </Link>
+              <Link href="mailto:ping@validatorinfo.com">
                 <Image src="/email.svg" alt="telegram" width={80} height={80} />
-              </a>
+              </Link>
             </div>
           </div>
         </Card>
@@ -116,9 +117,9 @@ const About: FC = () => {
             Looking for Interns.
             <br />
             Apply{' '}
-            <a href="#" className="bg-accent text-[#2FFBF7]">
+            <Link href="#" className="bg-accent text-[#2FFBF7]">
               here
-            </a>
+            </Link>
             .
           </div>
         </Card>

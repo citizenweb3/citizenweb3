@@ -33,7 +33,7 @@ const items = [
   },
   {
     title: 'Bazaar',
-    href: '#',
+    href: '/bazaar',
   },
 ];
 

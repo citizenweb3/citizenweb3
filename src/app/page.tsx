@@ -12,12 +12,7 @@ export default function Page() {
       <SiteHeader />
       <main>
         <Hero title="Citizen Web3: Non‑Custodial, Privacy‑Focused, Self‑Hosted Validator" />
-        <section id="tools" className="py-16 md:py-20">
-          <div className="max-w-[80vw] mx-auto px-4">
-            <h2 className="mb-12 text-center text-2xl font-bold tracking-wide">Tools, Projects and Public Goods</h2>
-            <ToolsGrid />
-          </div>
-        </section>
+        <ToolsGrid />
         <BlockBorder />
         <Manifesto />
         <BlockBorder />
