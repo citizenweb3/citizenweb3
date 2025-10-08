@@ -3,22 +3,70 @@ import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 import Card from '@/components/card';
 import Image from 'next/image';
 import { twMerge } from 'tailwind-merge';
+import Link from 'next/link';
 
 export type BazaarItem = {
   id: string;
   title: string;
-  imgSrc?: string;
+  imgSrc: string;
+  description: string;
+  link?: string;
+  blur?: boolean;
 };
 
 const defaultItems: BazaarItem[] = [
-  { id: '0', title: 'Merchandise', imgSrc: '/tools/vi.svg' },
-  { id: '1', title: `NFT's`, imgSrc: '/tools/vi.svg' },
-  { id: '2', title: 'Decentraland', imgSrc: '/tools/vi.svg' },
-  { id: '3', title: 'Lives, Debates and Spaces', imgSrc: '/tools/vi.svg' },
-  { id: '4', title: 'Serejandmyelf', imgSrc: '/tools/vi.svg' },
-  { id: '5', title: 'DAO', imgSrc: '/tools/vi.svg' },
-  { id: '6', title: 'IPFS', imgSrc: '/tools/vi.svg' },
-  { id: '7', title: 'Docs and Guides', imgSrc: '/tools/vi.svg' },
+  {
+    id: '4',
+    title: 'Serejandmyself',
+    imgSrc: '/serejandmyself.jpeg',
+    description: 'No bullshit blog by serejandmyself. Enter the rabbit hole',
+    link: 'https://serejandmyself.github.io',
+  },
+  {
+    id: '5',
+    title: 'DAO',
+    imgSrc: '/cw3.png',
+    description: 'DAO. We are a future DAO. Under Development',
+    blur: true,
+  },
+  { id: '6', title: 'IPFS', imgSrc: '/cw3.png', description: 'Store files permanently.' },
+  {
+    id: '7',
+    title: 'Docs and Guides',
+    imgSrc: '/cw3.png',
+    link: 'https://staking.citizenweb3.com',
+    description:
+      'Various Guides and Docs can be found on our staking page in each networks details, under the Public Goods section',
+  },
+  {
+    id: '0',
+    title: 'Merch',
+    imgSrc: '/cw3.png',
+    blur: true,
+    description: 'We are planning some very cool merch soon. Stay Tuned',
+  },
+  {
+    id: '1',
+    title: `NFT's`,
+    imgSrc: '/nft.jpg',
+    link: 'https://www.stargaze.zone/p/stars1vl6ajz05llk3ugascwcyehx7y2yjjvn5scrcg0/collections',
+    description: 'The Old Citizen Cosmos NFT Collection',
+  },
+  {
+    id: '2',
+    title: 'Decentraland',
+    imgSrc: '/cw3.png',
+    blur: true,
+    description: 'Under Development. Plans to expand to the metaverse',
+  },
+  {
+    id: '3',
+    title: 'Lives and Debates',
+    imgSrc: '/cw3.png',
+    link: 'https://staking.citizenweb3.com',
+    description:
+      'Our previous Live and Debates can be found on our staking page in each networks details, under the Public Goods section',
+  },
 ];
 
 function ArrowButton({
@@ -80,34 +128,49 @@ function ArrowButton({
 }
 
 /** A single card */
-function BazaarCard({ title, imgSrc }: { title: string; imgSrc?: string }) {
-  return (
-    <Card className="group relative h-[24rem] w-[24rem]  md:h-[40rem] md:w-[40rem] snap-center shrink-0 py-24 transition-transform duration-300 hover:-translate-y-0.5">
-      <div className="text-center text-3xl">{title}</div>
+function BazaarCard({
+  title,
+  description,
+  imgSrc,
+  link = undefined,
+  blur = false,
+}: {
+  title: string;
+  description: string;
+  imgSrc: string;
+  link?: string;
+  blur?: boolean;
+}) {
+  const content = (
+    <Card className="group relative h-[30rem] w-[30rem] rounded-4xl hover:rounded-b-none md:h-[55rem] md:w-[55rem] snap-center shrink-0 py-24 transition-transform duration-300 hover:-translate-y-0.5">
+      <div className="text-center text-5xl">{title}</div>
       <div className="mt-[1rem] md:mt-[6rem] flex w-full items-center justify-center rounded-xl">
-        {imgSrc ? (
-          <Image
-            src={imgSrc}
-            alt={title}
-            width={400}
-            height={400}
-            className="h-[12rem] w-[12rem] md:h-[20rem] md:w-[20rem] rounded-full object-cover"
-          />
-        ) : (
-          <Image
-            src="/logo.png"
-            alt={title}
-            width={40}
-            height={40}
-            className="h-[12rem] w-[12rem] md:h-[20rem] md:w-[20rem] rounded-full object-cover"
-          />
-        )}
+        <Image
+          src={imgSrc}
+          alt={title}
+          width={400}
+          height={400}
+          className={twMerge(
+            'h-[12rem] w-[12rem] md:h-[33rem] md:w-[33rem] rounded-full object-cover',
+            blur ? 'group-hover:blur-sm' : '',
+          )}
+        />
       </div>
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-center text-sm text-white/50">
-        In Development
+      <div className="absolute top-[55rem] left-0 right-0 text-2xl hidden group-hover:block z-50 rounded-b-4xl bg-linear-to-t from-[#7C7C81]/25 to-[#7C7C81]/25 pt-0 px-12 pb-8 shadow-card">
+        {description || 'Under Development'}
       </div>
     </Card>
   );
+
+  if (link) {
+    return (
+      <Link href={link} target="_blank" rel="noopener noreferrer" className="no-underline">
+        {content}
+      </Link>
+    );
+  } else {
+    return content;
+  }
 }
 
 const Bazaar: FC = () => {
@@ -194,12 +257,14 @@ const Bazaar: FC = () => {
                   i === active && 'px-20',
                 )}
               >
-                <div
-                  className={`transition-transform duration-300 ${
-                    i === active ? 'scale-100 z-10' : 'scale-75 opacity-80'
-                  }`}
-                >
-                  <BazaarCard title={it.title} imgSrc={it.imgSrc} />
+                <div className={`transition-transform duration-300 ${i === active ? 'scale-75 z-10' : 'scale-50'}`}>
+                  <BazaarCard
+                    title={it.title}
+                    description={it.description}
+                    imgSrc={it.imgSrc}
+                    blur={it.blur}
+                    link={it.link}
+                  />
                 </div>
               </div>
             ))}

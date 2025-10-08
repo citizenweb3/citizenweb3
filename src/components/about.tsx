@@ -70,25 +70,27 @@ const About: FC = () => {
       </div>
       <div className="w-[90vw] mx-auto flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-12 *:w-full *:md:w-auto">
         <Card className="flex justify-between flex-col items-center space-y-6">
-          <div className="text-2xl">Contacts</div>
+          <div id="contacts" className="text-2xl">
+            Contacts
+          </div>
           <div>
-            <div className="*:w-10 *:h-auto *:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-8 flex items-center justify-center ">
-              <Link href="https://github.com/citizenweb3">
-                <Image src="/github.svg" alt="github" width={80} height={80} />
+            <div className="*:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-8 flex items-center justify-center ">
+              <Link target="_blank" rel="noopener noreferrer" href="https://github.com/citizenweb3">
+                <Image src="/github.png" alt="github" width={160} height={160} className="w-16 h-16" />
               </Link>
-              <Link href="https://x.com/citizen_web3">
-                <Image src="/twitter.svg" alt="twitter" width={80} height={80} />
+              <Link target="_blank" rel="noopener noreferrer" href="https://x.com/citizen_web3">
+                <Image src="/twitter.png" alt="twitter" width={160} height={160} className="w-16 h-16" />
               </Link>
-              <Link href="https://t.me/citizenweb3">
-                <Image src="/telegram.svg" alt="telegram" width={80} height={80} />
+              <Link target="_blank" rel="noopener noreferrer" href="https://t.me/citizenweb3">
+                <Image src="/telegram.png" alt="telegram" width={160} height={160} className="w-16 h-16" />
               </Link>
             </div>
-            <div className="*:w-10 *:h-auto *:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-8 flex items-center justify-center ">
-              <Link href="https://validatorinfo.com/blog/">
-                <Image src="/edit.svg" alt="telegram" width={80} height={80} />
+            <div className="*:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-8 flex items-center justify-center ">
+              <Link target="_blank" rel="noopener noreferrer" href="https://validatorinfo.com/blog/">
+                <Image src="/edit.png" alt="telegram" width={160} height={160} className="w-16 h-16" />
               </Link>
-              <Link href="mailto:ping@validatorinfo.com">
-                <Image src="/email.svg" alt="telegram" width={80} height={80} />
+              <Link target="_blank" rel="noopener noreferrer" href="mailto:ping@validatorinfo.com">
+                <Image src="/email.png" alt="telegram" width={160} height={160} className="w-16 h-16" />
               </Link>
             </div>
           </div>
@@ -97,7 +99,7 @@ const About: FC = () => {
           <div className="text-2xl">Partners</div>
           <div className="flex-wrap *:w-14 *:h-auto *:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-4 flex items-center justify-center ">
             {partners.map((partner) => (
-              <a key={partner.title} href={partner.href}>
+              <Link target="_blank" rel="noopener noreferrer" key={partner.title} href={partner.href}>
                 <Image
                   src={partner.icon}
                   alt={partner.title}
@@ -105,12 +107,14 @@ const About: FC = () => {
                   height={80}
                   className="w-20 h-auto rounded-full"
                 />
-              </a>
+              </Link>
             ))}
           </div>
         </Card>
         <Card className="flex justify-between flex-col items-center space-y-6 w-full md:w-auto">
-          <div className="text-2xl">Career Section</div>
+          <div id="careers" className="text-2xl">
+            Careers
+          </div>
           <div className="text-2xl text-center tracking-wide">
             Join the Team!
             <br />
