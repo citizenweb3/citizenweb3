@@ -97,7 +97,7 @@ const About: FC = () => {
         </Card>
         <Card className="flex justify-between flex-col items-center space-y-6 flex-grow">
           <div className="text-2xl">Partners</div>
-          <div className="flex-wrap *:w-14 *:h-auto *:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-4 flex items-center justify-center ">
+          <div className="flex-wrap *:w-14 *:h-auto *:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-3 flex items-center justify-center ">
             {partners.map((partner) => (
               <Link target="_blank" rel="noopener noreferrer" key={partner.title} href={partner.href}>
                 <Image
