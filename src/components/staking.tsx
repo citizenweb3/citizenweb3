@@ -4,18 +4,22 @@ import BlockText from '@/components/block-text';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const text = `Citizen Web3 is a self-hosted, independent and non custodial validator. Off the grid, baremetal infrastructure provider, with a focus on Privacy Networks.
+const text = `Citizen Web3 is a self-hosted, independent and non custodial validator. Off the grid, baremetal infrastructure provider, with a focus on Privacy Networks.`;
 
-We work on a mixture of broadband and Starlink internet connections, and partially run off solar energy. We strongly believe in decentralized infrastructure, independent of the grid, and that's our end goal. Our full architecture.
+const text2 = `We work on a mixture of broadband and Starlink internet connections, and partially run off solar energy. We strongly believe in decentralized infrastructure, independent of the grid, and that's our end goal. Our full architecture.`;
 
-We use Multi-party computation software (Horcrux) on all our nodes, to protect stakers from double signing. We use Re-Stake on our mainnet nodes, set to restake twice per day, so users can compound their staking rewards more efficiently.`;
+const text3 = `We use Multi-party computation software (Horcrux) on all our nodes, to protect stakers from double signing. We use Re-Stake on our mainnet nodes, set to restake twice per day, so users can compound their staking rewards more efficiently.`;
 
 const Manifesto: FC = () => (
   <section id="manifesto" className="pb-12">
     <div className="max-w-[80vw] text-justify md:text-left md:max-w-[80vw] mx-auto">
       <BlockTitle title={'Staking with Citizen Web3 Validator'} className="mb-12" />
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <BlockText text={text} className="text-xl leading-8" />
+        <div className="space-y-4">
+          <BlockText text={text} className="text-xl leading-8" />
+          <BlockText text={text2} className="text-xl leading-8" />
+          <BlockText text={text3} className="text-xl leading-8" />
+        </div>
         <div className="w-full flex flex-col items-center justify-center">
           <div className="*:w-16 *:h-auto mt-12 flex gap-4 md:gap-6 lg:gap-8 justify-center">
             <Image src="/medals/eco.svg" alt="eco" width={136} height={136} />
