@@ -5,7 +5,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const text = `Citizen Web3 is a self-hosted, independent and non custodial validator. Off the grid, baremetal infrastructure provider, with a focus on Privacy Networks.
+
 We work on a mixture of broadband and Starlink internet connections, and partially run off solar energy. We strongly believe in decentralized infrastructure, independent of the grid, and that's our end goal. Our full architecture.
+
 We use Multi-party computation software (Horcrux) on all our nodes, to protect stakers from double signing. We use Re-Stake on our mainnet nodes, set to restake twice per day, so users can compound their staking rewards more efficiently.`;
 
 const Manifesto: FC = () => (
