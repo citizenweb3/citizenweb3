@@ -9,10 +9,10 @@ import { useRef } from 'react';
 import { useOnClickOutside } from 'usehooks-ts';
 
 const menuItems = [
-  { title: 'Home', href: '/' },
+  { title: 'Staking', href: 'https://staking.citizenweb3.com' },
   { title: 'Validator', href: '/validator' },
   { title: 'Validator Info', href: 'https://validatorinfo.com' },
-  { title: 'Podcast', href: 'https://www.citizenweb3.com/episodes' },
+  { title: 'Podcast', href: 'https://podcast.citizenweb3.com' },
   { title: 'W3S', href: 'https://t.me/web_3_society' },
   { title: 'B.V.C', href: 'https://bvc.citizenweb3.com' },
   { title: 'Bazaar', href: '/bazaar' },

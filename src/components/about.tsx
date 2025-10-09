@@ -74,23 +74,18 @@ const About: FC = () => {
             Contacts
           </div>
           <div>
-            <div className="*:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-8 flex items-center justify-center ">
+            <div className="*:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-4 flex items-center justify-center ">
               <Link target="_blank" rel="noopener noreferrer" href="https://github.com/citizenweb3">
-                <Image src="/github.png" alt="github" width={160} height={160} className="w-16 h-16" />
+                <Image src="/github.png" alt="github" width={160} height={160} className="w-12 h-12" />
               </Link>
               <Link target="_blank" rel="noopener noreferrer" href="https://x.com/citizen_web3">
-                <Image src="/twitter.png" alt="twitter" width={160} height={160} className="w-16 h-16" />
+                <Image src="/twitter.png" alt="twitter" width={160} height={160} className="w-12 h-12" />
               </Link>
-              <Link target="_blank" rel="noopener noreferrer" href="https://t.me/citizenweb3">
-                <Image src="/telegram.png" alt="telegram" width={160} height={160} className="w-16 h-16" />
+              <Link target="_blank" rel="noopener noreferrer" href="https://t.me/citizen_web_3">
+                <Image src="/telegram.png" alt="telegram" width={160} height={160} className="w-12 h-12" />
               </Link>
-            </div>
-            <div className="*:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-8 flex items-center justify-center ">
-              <Link target="_blank" rel="noopener noreferrer" href="https://validatorinfo.com/blog/">
-                <Image src="/edit.png" alt="telegram" width={160} height={160} className="w-16 h-16" />
-              </Link>
-              <Link target="_blank" rel="noopener noreferrer" href="mailto:ping@validatorinfo.com">
-                <Image src="/email.png" alt="telegram" width={160} height={160} className="w-16 h-16" />
+              <Link target="_blank" rel="noopener noreferrer" href="https://citizenweb3.github.io/manuscripts">
+                <Image src="/edit.png" alt="telegram" width={160} height={160} className="w-12 h-12" />
               </Link>
             </div>
           </div>
@@ -121,7 +116,7 @@ const About: FC = () => {
             Looking for Interns.
             <br />
             Apply{' '}
-            <Link href="#" className="bg-accent text-[#2FFBF7]">
+            <Link href="https://t.me/citizenweb3" className="bg-accent text-[#2FFBF7] underline hover:no-underline">
               here
             </Link>
             .

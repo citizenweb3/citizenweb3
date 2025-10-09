@@ -12,13 +12,13 @@ const items = [
   {
     title: 'Podcast',
     icon: '/tools/podcast.png',
-    href: 'https://www.citizenweb3.com/episodes',
+    href: 'https://podcast.citizenweb3.com',
     description:
       'Citizen Web3 Podcast: Interviews and stories from key Web3 builders, contributors and thinkers. Over 5 years on air!',
   },
   {
     title: 'Staking',
-    href: 'https://staking.citizenweb3.com',
+    href: 'https://www.citizenweb3.com/validator',
     description: '',
   },
   {
