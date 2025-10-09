@@ -40,7 +40,7 @@ const Footer: FC = () => {
         <Link target="_blank" rel="noopener noreferrer" href="https://github.com/citizenweb3">
           GitHub
         </Link>
-        <Link target="_blank" rel="noopener noreferrer" href="https://t.me/citizenweb3">
+        <Link target="_blank" rel="noopener noreferrer" href="https://t.me/citizen_web_3">
           Telegram
         </Link>
         <Link target="_blank" rel="noopener noreferrer" href="https://x.com/citizen_web3">
