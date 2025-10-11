@@ -35,7 +35,7 @@ const Manifesto: FC = () => (
               href="https://staking.citizenweb3.com/"
               className="hover:no-underline relative py-6 px-28 font-bold block text-3xl text-center bg-[#1A1A1B] rounded-lg hover:bg-[#ffffff]/15 cursor-pointer mt-8"
             >
-              <Image src="/arrow.svg" alt="svg" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
+              <Image src="/figma-arrows/arrow-2.svg" alt="svg" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
               Staking
             </Link>
             <Link
@@ -44,7 +44,7 @@ const Manifesto: FC = () => (
               href="https://monitor.citizenweb3.com"
               className="hover:no-underline relative py-6 px-28 font-bold block text-3xl text-center bg-[#1A1A1B] rounded-lg hover:bg-[#ffffff]/15 cursor-pointer mt-8"
             >
-              <Image src="/arrow.svg" alt="svg" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
+              <Image src="/figma-arrows/arrow-3.svg" alt="svg" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
               Monitor
             </Link>
           </div>

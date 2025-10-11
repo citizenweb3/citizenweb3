@@ -4,6 +4,7 @@ import Manifesto from '@/components/manifesto';
 import About from '@/components/about';
 import BlockBorder from '@/components/block-border';
 import SiteFooter from '@/components/footer';
+import ScrollToTop from '@/components/scroll-to-top';
 
 export default function Page() {
   return (
@@ -18,6 +19,7 @@ export default function Page() {
         <BlockBorder />
       </main>
       <SiteFooter />
+      <ScrollToTop />
     </div>
   );
 }

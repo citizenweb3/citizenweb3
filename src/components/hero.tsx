@@ -2,6 +2,7 @@ import { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Menu from '@/components/menu';
+import DecorativeArrows from '@/components/decorative-arrows';
 
 interface OwnProps {
   title?: string;
@@ -18,6 +19,7 @@ const Hero: FC<OwnProps> = ({ title }) => {
         </Link>
         <h1 className="max-w-2xl font-bold text-sm text-zinc-400 md:text-base">{title}</h1>
       </div>
+      <DecorativeArrows />
     </section>
   );
 };
