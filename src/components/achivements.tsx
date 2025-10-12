@@ -8,7 +8,7 @@ const Achivements: FC = () => {
   const [isOpened, setIsOpened] = useState<boolean>(false);
   return (
     <div onClick={() => setIsOpened(!isOpened)}>
-      <button className="py-2 px-14 bg-[#1A1A1B] rounded-lg hover:bg-[#ffffff]/15 cursor-pointer mt-8">
+      <button className="py-2 px-14 bg-[#1A1A1B] rounded-lg hover:bg-[#ffffff]/15 cursor-pointer mt-8 font-semibold">
         Our Values and Achievements
       </button>
       {isOpened && (

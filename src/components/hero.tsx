@@ -2,7 +2,7 @@ import { FC } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Menu from '@/components/menu';
-import DecorativeArrows from '@/components/decorative-arrows';
+import DecorativeArrows from '@/components/header-arrows/decorative-arrows';
 
 interface OwnProps {
   title?: string;
@@ -10,7 +10,7 @@ interface OwnProps {
 
 const Hero: FC<OwnProps> = ({ title }) => {
   return (
-    <section className="relative min-w-screen min-h-screen">
+    <section className="relative min-w-screen min-h-screen pb-20">
       <Menu />
       <Image src="/hero-bg.png" alt="bg" fill priority className="object-cover -z-10 min-h-screen min-w-screen" />
       <div className="max-w-[80vw] mx-auto flex min-h-[56svh] flex-col items-center justify-center gap-12 xl:gap-32 px-4 text-center md:min-h-[70svh]">
