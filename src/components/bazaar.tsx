@@ -19,7 +19,7 @@ const defaultItems: BazaarItem[] = [
     id: '4',
     title: 'Serejandmyself',
     imgSrc: '/serejandmyself.jpeg',
-    description: 'No bullshit blog by serejandmyself. Enter the rabbit hole',
+    description: 'The no bullshit blog by @serejandmyself - the founder of Citizen Web3. Enter the mad rabbit hole',
     link: 'https://serejandmyself.github.io',
   },
   {
@@ -29,7 +29,12 @@ const defaultItems: BazaarItem[] = [
     description: 'DAO. We are a future DAO. Under Development',
     blur: true,
   },
-  { id: '6', title: 'IPFS', imgSrc: '/cw3.png', description: 'Store files permanently.' },
+  {
+    id: '6',
+    title: 'IPFS',
+    imgSrc: '/cw3.png',
+    description: 'Store files privately and permenantly using our infrastructure. Under development',
+  },
   {
     id: '7',
     title: 'Docs and Guides',
@@ -40,10 +45,11 @@ const defaultItems: BazaarItem[] = [
   },
   {
     id: '0',
-    title: 'Merch',
+    title: 'Lives and Debates',
     imgSrc: '/cw3.png',
-    blur: true,
-    description: 'We are planning some very cool merch soon. Stay Tuned',
+    link: 'https://staking.citizenweb3.com',
+    description:
+      'Our previous Live and Debates can be found on our staking page in each networks details, under the Public Goods section',
   },
   {
     id: '1',
@@ -57,15 +63,14 @@ const defaultItems: BazaarItem[] = [
     title: 'Decentraland',
     imgSrc: '/cw3.png',
     blur: true,
-    description: 'Under Development. Plans to expand to the metaverse',
+    description: 'We plan to expand Citizen Web3 to the decentralized metaverse. Under development',
   },
   {
     id: '3',
-    title: 'Lives and Debates',
+    title: 'Merch',
     imgSrc: '/cw3.png',
-    link: 'https://staking.citizenweb3.com',
-    description:
-      'Our previous Live and Debates can be found on our staking page in each networks details, under the Public Goods section',
+    blur: true,
+    description: 'We are planning some very cool merch soon. Stay Tuned. Under development',
   },
 ];
 
