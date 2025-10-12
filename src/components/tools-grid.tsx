@@ -46,7 +46,7 @@ const items = [
     title: 'Chain Data Indexer',
     icon: '/github.svg',
     href: 'https://github.com/citizenweb3/chain-data-indexer',
-    description: '',
+    description: 'A high-performance, modular blockchain data indexer designed for powering block explorers, analytics platforms, DeFi dashboards, compliance tools, and research projects. Ongoing development',
     underDevelopment: true,
   },
   {
