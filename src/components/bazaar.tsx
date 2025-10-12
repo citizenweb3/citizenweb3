@@ -179,7 +179,6 @@ const Bazaar: FC = () => {
   const listRef = useRef<HTMLDivElement | null>(null);
   const [active, setActive] = useState(1);
 
-  // Snap to an index
   const scrollToIndex = (idx: number) => {
     const el = listRef.current?.children[idx] as HTMLElement | undefined;
     if (!el || !listRef.current) return;
@@ -192,7 +191,6 @@ const Bazaar: FC = () => {
   const next = () => scrollToIndex((active + 1) % items.length);
   const prev = () => scrollToIndex((active - 1 + items.length) % items.length);
 
-  // Keep active in sync when user scrolls/dragging
   useEffect(() => {
     const container = listRef.current;
     if (!container) return;
@@ -202,10 +200,6 @@ const Bazaar: FC = () => {
 
       if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 3) {
         setActive(children.length - 1);
-        return;
-      }
-      if (container.scrollLeft <= 3) {
-        setActive(0);
         return;
       }
 
@@ -226,7 +220,6 @@ const Bazaar: FC = () => {
     return () => container.removeEventListener('scroll', handler);
   }, []);
 
-  // Keyboard support
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'ArrowRight') next();
