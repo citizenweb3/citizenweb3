@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #E6E6E6;
+  --border: 220 10% 22%;
+  --card: 220 10% 10%;
+  --muted: 220 10% 46%;
+  --primary: 248 100% 70%;
+  --accent: #2FFBF7;
+}
+
+html, body { height: 100%; }
+
+html {
+
+    font-size: 0.9vw;
+
+    @media (max-width: 768px) {
+        font-size: 10px;
+    }
+
+    * {
+        scrollbar-color: unset;
+        scrollbar-width: unset;
+    }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE/Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+
+body { @apply bg-background text-foreground antialiased; }
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+.mesh-bg{ position:relative; isolation:isolate; }
+.mesh-bg::before{
+  content:""; position:absolute; inset:0; z-index:-1;
+  background:
+          radial-gradient(1000px 400px at 50% -10%, hsl(var(--accent)/.20), transparent),
+          radial-gradient(800px 400px at -10% 50%, hsl(var(--primary)/.18), transparent),
+          radial-gradient(800px 400px at 110% 60%, hsl(var(--muted)/.16), transparent);
+}
+.mesh-bg::after{
+  content:""; position:absolute; inset:0; z-index:-1; opacity:.4; mix-blend-mode:screen;
+  background-image:
+          radial-gradient(circle at 20% 30%, rgba(255,255,255,0.06) 2px, transparent 3px),
+          radial-gradient(circle at 80% 20%, rgba(255,255,255,0.06) 2px, transparent 3px),
+          radial-gradient(circle at 60% 70%, rgba(255,255,255,0.06) 2px, transparent 3px);
+  background-size: 120px 120px, 160px 160px, 200px 200px;
+}
+
+@layer components {
+        a {
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+}
+
+
+
