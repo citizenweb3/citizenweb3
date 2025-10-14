@@ -1,8 +1,8 @@
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 import { twMerge } from 'tailwind-merge';
 
 interface OwnProps {
-  text: string;
+  text: string | ReactNode;
   className?: string;
   textCenter?: boolean;
 }

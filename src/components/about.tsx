@@ -68,7 +68,7 @@ const About: FC = () => {
           <Achivements />
         </div>
       </div>
-      <div className="w-[90vw] mx-auto flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-12 *:w-full *:md:w-auto">
+      <div className="w-[90vw] mx-auto flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 *:w-full *:md:w-auto">
         <Card className="flex justify-between flex-col items-center space-y-6">
           <div id="contacts" className="text-2xl">
             Contacts
@@ -90,7 +90,7 @@ const About: FC = () => {
             </div>
           </div>
         </Card>
-        <Card className="flex justify-between flex-col items-center space-y-6 flex-grow">
+        <Card className="flex justify-between flex-col items-center space-y-4 flex-grow">
           <div className="text-2xl">Partners</div>
           <div className="flex-wrap *:w-14 *:h-auto *:cursor-pointer *:rounded-full *:hover:shadow-[0_0_3px_3px_rgba(253,226,149,0.7)] *:mx-3 flex items-center justify-center ">
             {partners.map((partner) => (
@@ -106,20 +106,20 @@ const About: FC = () => {
             ))}
           </div>
         </Card>
-        <Card className="flex justify-between flex-col items-center space-y-6 w-full md:w-auto">
-          <div id="careers" className="text-2xl">
-            Careers
-          </div>
-          <div className="text-2xl text-center tracking-wide">
-            Join the Team!
-            <br />
-            Looking for Interns.
-            <br />
-            Apply{' '}
-            <Link href="https://t.me/citizenweb3" className="bg-accent text-[#2FFBF7] underline hover:no-underline">
-              here
-            </Link>
-            .
+        <Card className="md:-mt-32 md:py-2 md:px-2 md:min-h-96 md:min-w-80">
+          <div className="space-y-6 pr-16 pb-32 pl-6 pt-4 mx-auto border-white/10 border-3 border-dashed rounded-2xl">
+            <div id="careers" className="text-2xl mb-8 my-4">
+              Career Section
+            </div>
+            <div className="text-lg">Join the Team!</div>
+            <div className="text-lg">Looking for Interns.</div>
+            <div className="text-lg">
+              Apply{' '}
+              <Link href="https://t.me/citizenweb3" className="text-[#2FFBF7] underline hover:no-underline">
+                here
+              </Link>
+              .
+            </div>
           </div>
         </Card>
       </div>
