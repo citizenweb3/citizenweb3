@@ -13,12 +13,12 @@ const Footer: FC = () => {
           Podcast
         </Link>
         <Link target="_blank" rel="noopener noreferrer" href="https://t.me/web_3_society">
-          W3S
+          W.3.S.
         </Link>
       </div>
       <div className="*:font-light *:text-base space-y-2 *:block">
         <Link target="_blank" rel="noopener noreferrer" href="https://bvc.citizenweb3.com">
-          B.V.C
+          B.V.C.
         </Link>
         <Link href="/bazaar">Bazaar</Link>
         <Link href="/#about">About us</Link>

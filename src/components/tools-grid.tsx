@@ -8,6 +8,7 @@ const items = [
     href: 'https://validatorinfo.com',
     description:
       'Validator Info: Web3 Blockchain Explorer and Interactive Dashboard. Validator, Mining Pool, Token and Network Onchain Metrics',
+    underDevelopment: false,
   },
   {
     title: 'Podcast',
@@ -15,11 +16,15 @@ const items = [
     href: 'https://podcast.citizenweb3.com',
     description:
       'Citizen Web3 Podcast: Interviews and stories from key Web3 builders, contributors and thinkers. Over 5 years on air!',
+    underDevelopment: false,
   },
   {
     title: 'Staking',
+    icon: '/cw3.png',
     href: 'https://www.citizenweb3.com/validator',
-    description: '',
+    description:
+      'Self-Hosted, Bare-Metal Validator Infrastructure. Off the Grid Capacity. Endpoints, Archive, Snapshots and Relaying',
+    underDevelopment: false,
   },
   {
     title: 'WEB3 Society',
@@ -27,6 +32,7 @@ const items = [
     href: 'https://t.me/web_3_society',
     description:
       'Web3 Values-driven, Blockchain-agnostic Community for collaboration. Learning to Forget Tribalism and Love the Tech. Future DAO',
+    underDevelopment: false,
   },
   {
     title: 'BVC',
@@ -34,17 +40,21 @@ const items = [
     href: 'https://bvc.citizenweb3.com/',
     description:
       'Baremetal Validator Coven: Baremetal Validator Coven. Community and Docs for Selfhosted and Baremetal Blockchain Network Operators',
+    underDevelopment: true,
   },
   {
     title: 'Chain Data Indexer',
     icon: '/github.svg',
     href: 'https://github.com/citizenweb3/chain-data-indexer',
-    description: '',
+    description: 'A high-performance, modular blockchain data indexer designed for powering block explorers, analytics platforms, DeFi dashboards, compliance tools, and research projects. Ongoing development',
+    underDevelopment: true,
   },
   {
     title: 'Bazaar',
+    icon: '/cw3.png',
     href: '/bazaar',
     description: 'Bazaar: NFTs, Merch, Lives, Debates, Virtual Spaces and more...',
+    underDevelopment: true,
   },
 ];
 
@@ -61,23 +71,13 @@ export function ToolsGrid() {
                   <span className="text-nowrap">{item.title}</span>
                 </div>
                 <div className="mt-8 flex h-28 items-center justify-center rounded-xl">
-                  {item.icon ? (
-                    <Image
-                      src={item.icon}
-                      alt={item.title}
-                      width={138}
-                      height={138}
-                      className="opacity-90 w-32 h-32 rounded-full grayscale-100 group-hover:grayscale-0"
-                    />
-                  ) : (
-                    <Image
-                      src="/cw3.png"
-                      alt="logo"
-                      width={138}
-                      height={138}
-                      className="opacity-90 w-32 h-32 rounded-full grayscale-100 group-hover:grayscale-0"
-                    />
-                  )}
+                  <Image
+                    src={item.icon}
+                    alt={item.title}
+                    width={138}
+                    height={138}
+                    className={`opacity-90 w-32 h-32 rounded-full ${item.underDevelopment ? 'grayscale-100 group-hover:grayscale-0' : ''}`}
+                  />
                 </div>
                 <div className="mt-8 hidden group-hover:block">{item.description}</div>
               </Card>
