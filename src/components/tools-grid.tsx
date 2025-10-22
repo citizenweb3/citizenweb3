@@ -51,7 +51,7 @@ const items = [
   },
   {
     title: 'Bazaar',
-    icon: '/cw3.png',
+    icon: '/bazaar.svg',
     href: '/bazaar',
     description: 'Bazaar: NFTs, Merch, Lives, Debates, Virtual Spaces and more...',
     underDevelopment: true,

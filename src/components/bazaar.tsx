@@ -25,14 +25,14 @@ const defaultItems: BazaarItem[] = [
   {
     id: '5',
     title: 'DAO',
-    imgSrc: '/cw3.png',
+    imgSrc: '/dao.svg',
     description: 'DAO. We are a future DAO. Under Development',
     blur: true,
   },
   {
     id: '6',
     title: 'IPFS',
-    imgSrc: '/cw3.png',
+    imgSrc: '/ipfs.svg',
     description: 'Store files privately and permenantly using our infrastructure. Under development',
   },
   {
@@ -61,7 +61,7 @@ const defaultItems: BazaarItem[] = [
   {
     id: '2',
     title: 'Decentraland',
-    imgSrc: '/cw3.png',
+    imgSrc: '/decentraland.svg',
     blur: true,
     description: 'We plan to expand Citizen Web3 to the decentralized metaverse. Under development',
   },
