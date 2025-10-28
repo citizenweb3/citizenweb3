@@ -4,6 +4,7 @@ import Card from '@/components/card';
 import Image from 'next/image';
 import { twMerge } from 'tailwind-merge';
 import Link from 'next/link';
+import ScrollToTop from '@/components/scroll-to-top';
 
 export type BazaarItem = {
   id: string;
@@ -34,6 +35,7 @@ const defaultItems: BazaarItem[] = [
     title: 'IPFS',
     imgSrc: '/ipfs.svg',
     description: 'Store files privately and permenantly using our infrastructure. Under development',
+    blur: true,
   },
   {
     id: '7',
@@ -269,6 +271,7 @@ const Bazaar: FC = () => {
           </div>
         </div>
       </div>
+      <ScrollToTop />
     </section>
   );
 };

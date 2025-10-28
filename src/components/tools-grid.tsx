@@ -35,7 +35,7 @@ const items = [
     underDevelopment: false,
   },
   {
-    title: 'BVC',
+    title: 'B.V.C.',
     icon: '/tools/bvc.webp',
     href: 'https://bvc.citizenweb3.com/',
     description:
