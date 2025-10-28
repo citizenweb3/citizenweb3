@@ -8,10 +8,10 @@ interface OwnProps {
 
 const HeaderArrow: FC<OwnProps> = ({ isActive, alt }) => (
   <div
-    className={`w-8 h-5 transition-all duration-600 ${
+    className={`w-8 h-5 transition-all duration-600 brightness-150 ${
       isActive
-        ? 'opacity-100 brightness-150 scale-110'
-        : 'opacity-95 brightness-95'
+        ? 'scale-110'
+        : ''
     }`}
   >
     <Image src="/arrow-down.svg" alt={alt} width={36} height={24} className="w-full h-full object-cover" />
