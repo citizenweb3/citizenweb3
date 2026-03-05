@@ -8,4 +8,6 @@ A repo for management of the Citizen Web3 project
 
 ### [Follow us on X / Twitter](https://x.com/citizen_web3)
 
+### [Our Projects](https://citizenweb3.com/#toolsandprojects)
+
 ![Cw3 logo](https://github.com/citizenweb3/citizenweb3/assets/7550961/d54bc78c-8a8c-4ee1-a048-c7bb2e4ec997)
