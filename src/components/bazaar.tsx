@@ -4,7 +4,7 @@ import Card from '@/components/card';
 import Image from 'next/image';
 import { twMerge } from 'tailwind-merge';
 import Link from 'next/link';
-import ScrollToTop from '@/components/scroll-to-top';
+
 
 export type BazaarItem = {
   id: string;
@@ -237,9 +237,12 @@ const Bazaar: FC = () => {
   }, [active, items.length]);
 
   return (
-    <section className="relative w-full bg-black text-white">
-      <div className="pb-16 pt-12">
-        <h2 className="mb-6 text-center text-2xl md:mb-8 md:text-3xl">{title}</h2>
+    <section className="relative w-full bg-black text-white py-8 md:py-12">
+      <div className="max-w-[80vw] mx-auto mb-8">
+        <h2 className="mb-2 text-left text-2xl font-bold tracking-[0.05em]">{title}</h2>
+        <div className="w-full h-px bg-white/50" />
+      </div>
+      <div className="pb-8">
 
         <div className="relative">
           <ArrowButton side="left" onClick={prev} />
@@ -271,7 +274,6 @@ const Bazaar: FC = () => {
           </div>
         </div>
       </div>
-      <ScrollToTop />
     </section>
   );
 };
