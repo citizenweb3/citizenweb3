@@ -7,7 +7,7 @@ interface OwnProps {
 }
 
 const BlockTitle: FC<OwnProps> = ({ title, className }) => {
-  return <h2 className={twMerge('mb-6 text-center text-2xl font-bold', className)}>{title}</h2>;
+  return <h2 className={twMerge('mb-6 text-center text-2xl font-bold tracking-[0.05em]', className)}>{title}</h2>;
 };
 
 export default BlockTitle;

@@ -1,7 +1,6 @@
 'use client';
 
 import { FC, useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import { useRef } from 'react';
@@ -25,7 +24,7 @@ const MenuItem: FC<{ title: string; href: string; onClick: () => void }> = ({ ti
     <Link
       href={href}
       onClick={onClick}
-      className="w-56 bg-[#1A1A1B] px-12 py-2.5 rounded-md hover:scale-105 z-10 text-xl cursor-pointer hover:bg-[#262626] transition duration-300 hover:no-underline"
+      className="w-40 px-4 py-2.5 rounded-[10px] z-10 text-xl text-center cursor-pointer border-b-4 border-transparent hover:border-[#3e3e3e] hover:rounded-b-[10px] hover:scale-105 active:scale-100 active:border-transparent hover:no-underline"
       target={href.startsWith('http') ? '_blank' : '_self'}
       rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
     >
@@ -44,13 +43,12 @@ const Menu: FC = () => {
   });
 
   return (
-    <div ref={ref} className="absolute top-10 left-10 flex items-center justify-center flex-col z-50 p-4 space-y-2">
+    <div ref={ref} className="absolute top-10 right-10 flex items-center justify-center flex-col z-50 p-4 space-y-2">
       <div
         onClick={() => setIsMenuOpened(!isMenuOpened)}
-        className=" w-56 bg-[#1A1A1B] px-12 py-2.5 rounded-md hover:scale-105 z-10 text-xl flex items-center cursor-pointer hover:bg-[#262626] transition duration-300"
+        className="w-40 px-4 py-2.5 rounded-[10px] z-10 text-xl text-center cursor-pointer border-b-4 border-transparent hover:border-[#3e3e3e] hover:rounded-b-[10px] hover:scale-105 active:scale-100 active:border-transparent"
       >
-        <Image src="/menu.png" alt="menu" width={24} height={24} className="mr-2 h-5 w-auto" />
-        <div>Menu</div>
+        Menu
       </div>
       {isMenuOpened &&
         menuItems.map((item) => (
