@@ -12,7 +12,7 @@ const MeetTeam: FC = () => {
       <div className="flex justify-end mt-8 max-w-[80vw] mx-auto">
         <button
           onClick={() => setIsOpened(true)}
-          className="relative py-4 px-8 md:py-6 md:px-12 font-bold text-xl md:text-3xl text-center bg-[#1A1A1B] rounded-lg hover:bg-[#ffffff]/15 cursor-pointer"
+          className="relative py-3 px-6 md:py-4 md:px-10 font-bold text-lg md:text-2xl text-center bg-[#1A1A1B] rounded-[9px] hover:bg-[#ffffff]/15 cursor-pointer"
         >
           <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
           Meet our Team!

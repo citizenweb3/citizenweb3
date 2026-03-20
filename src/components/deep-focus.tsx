@@ -22,7 +22,7 @@ const DeepFocus: FC = () => (
           href="https://staking.citizenweb3.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:no-underline relative py-4 px-8 md:py-6 md:px-12 font-bold block text-xl md:text-3xl text-center bg-[#1A1A1B] rounded-lg hover:bg-[#ffffff]/15 cursor-pointer"
+          className="hover:no-underline relative py-3 px-6 md:py-4 md:px-10 font-bold block text-lg md:text-2xl text-center bg-[#1A1A1B] rounded-[9px] hover:bg-[#ffffff]/15 cursor-pointer"
         >
           <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
           Stake & Cashback

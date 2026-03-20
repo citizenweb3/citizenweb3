@@ -1,17 +1,21 @@
 import Hero from '@/components/hero';
-import BlockBorder from '@/components/block-border';
 import SiteFooter from '@/components/footer';
 import Staking from '@/components/staking';
+import ScrollToTop from '@/components/scroll-to-top';
 
 export default function Page() {
   return (
     <div className="min-h-dvh bg-[hsl(var(--background))]">
       <main>
-        <Hero title="Located in the middle of the Atlantic ocean with off the grid capabilities" />
+        <Hero
+          variant="home"
+          title="Our Infra - The Heart of Everything"
+          subtitle="Staking with Citizen Web3 Validator"
+        />
         <Staking />
-        <BlockBorder />
       </main>
       <SiteFooter />
+      <ScrollToTop />
     </div>
   );
 }
