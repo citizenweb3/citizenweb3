@@ -56,14 +56,55 @@ const items = [
     description: 'Bazaar: NFTs, Merch, Lives, Debates, Virtual Spaces and more...',
     underDevelopment: true,
   },
+  {
+    title: 'Monitor',
+    icon: '/cw3.png',
+    href: 'https://monitor.citizenweb3.com',
+    description:
+      'Citizen Web3 Network Monitor. Real-time monitoring of our validator infrastructure and network health.',
+    underDevelopment: false,
+  },
+  {
+    title: 'Privacy Forums',
+    icon: '/cw3.png',
+    href: 'https://privacy.citizenweb3.com',
+    description:
+      'Privacy-focused community forums. Discuss Web3 privacy, censorship resistance, and decentralized infrastructure.',
+    underDevelopment: true,
+  },
+  {
+    title: 'AI Agents',
+    icon: '/cw3.png',
+    href: 'https://agents.citizenweb3.com',
+    description:
+      'We are developing AI agents that help with staking, node monitoring, governance voting, and more. First one is already live on ValidatorInfo.',
+    underDevelopment: false,
+  },
+  {
+    title: 'API',
+    icon: '/tools/vi.svg',
+    href: 'https://validatorinfo.com',
+    description:
+      'Web3 data API powered by ValidatorInfo. Access validator metrics, chain data, and governance information.',
+    underDevelopment: true,
+  },
+  {
+    title: 'Enterprise Staking',
+    icon: '/cw3.png',
+    href: 'https://www.citizenweb3.com/validator',
+    description:
+      'Enterprise-grade bare-metal staking infrastructure. Self-hosted, off-the-grid, with Horcrux key sharding and auto-restaking.',
+    underDevelopment: false,
+  },
 ];
 
 export function ToolsGrid() {
   return (
-    <section id="tools" className="py-16 md:py-20">
+    <section id="tools" className="py-8 md:pt-12 pb-8">
       <div className="max-w-[80vw] mx-auto px-4">
-        <h2 className="mb-12 text-center text-2xl font-bold tracking-wide">Tools, Projects and Public Goods</h2>
-        <div className="grid gap-x-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <h2 className="mb-4 text-left text-2xl font-bold tracking-wide">Tools, Projects and Public Goods</h2>
+        <div className="w-full h-px bg-white/50 mb-12" />
+        <div className="grid gap-x-16 gap-y-8 grid-cols-2 md:grid-cols-4">
           {items.map((item) => (
             <a key={item.title} href={item.href} className="group no-underline text-white h-[27rem] block hover:z-50">
               <Card className="transition py-6">
