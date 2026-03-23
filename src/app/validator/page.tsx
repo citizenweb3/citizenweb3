@@ -9,7 +9,7 @@ export default function Page() {
       <main>
         <Hero
           variant="home"
-          title="Our Infra - The Heart of Everything"
+          title={'Our Infra\nThe Heart of Everything'}
           subtitle="Staking with Citizen Web3 Validator"
         />
         <Staking />

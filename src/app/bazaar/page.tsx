@@ -9,8 +9,8 @@ export default function Page() {
       <main>
         <Hero
           variant="home"
-          title="Citizen Web3: Non‑Custodial, Privacy‑Focused, Self‑Hosted Validator"
-          subtitle="Community Contributions and Other Projects"
+          title={'Citizen Web3\nNon‑Custodial, Privacy‑Focused, Self‑Hosted Validator'}
+          subtitle={'Community Contributions\nOther Projects'}
         />
         <Bazaar />
       </main>

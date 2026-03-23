@@ -12,7 +12,7 @@ interface OwnProps {
 
 const Hero: FC<OwnProps> = ({ title, subtitle, variant = 'default' }) => {
   return (
-    <section className={variant === 'home' ? 'relative min-w-screen pt-48 pb-16' : 'relative min-w-screen min-h-screen pb-20'}>
+    <section className={variant === 'home' ? 'relative min-w-screen pt-40 pb-10' : 'relative min-w-screen min-h-screen pb-20'}>
       {variant === 'home' ? (
         <Link href="/" className="absolute top-10 left-10 z-50">
           <Image src="/logo-full.svg" alt="Citizen Web3" width={476} height={55} priority className="w-[25vw] max-w-[476px] h-auto" />
@@ -28,10 +28,18 @@ const Hero: FC<OwnProps> = ({ title, subtitle, variant = 'default' }) => {
           </Link>
         )}
         <h1 className={variant === 'home' ? 'font-bold text-4xl tracking-[0.05em] opacity-90' : 'max-w-2xl font-bold text-sm text-zinc-400 md:text-base'}>
-          {title}
+          {title?.includes('\n') ? title.split('\n').map((line, i) => (
+            <span key={i} className={i > 0 ? 'block mt-4' : ''}>{line}</span>
+          )) : title}
         </h1>
-        {variant === 'home' && <div className="w-[166px] h-px bg-white opacity-50" />}
-        {subtitle && <p className="font-bold text-2xl tracking-[0.05em] opacity-90">{subtitle}</p>}
+        {variant === 'home' && <div className="w-[166px] h-px bg-white opacity-50 my-4" />}
+        {subtitle && (
+          <p className="font-bold text-2xl tracking-[0.05em] opacity-90">
+            {subtitle.includes('\n') ? subtitle.split('\n').map((line, i, arr) => (
+              <span key={i} className={i > 0 ? 'block mt-4' : ''}>{line}</span>
+            )) : subtitle}
+          </p>
+        )}
       </div>
       {variant === 'default' && <DecorativeArrows />}
     </section>

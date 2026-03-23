@@ -14,7 +14,7 @@ const Staking: FC = () => (
         <BlockTitle title="Non Custodial Staking with Citizen Web3 Validator" className="text-left" />
         <div className="w-full h-px bg-white/50 mb-8" />
 
-        <p className="font-bold text-lg tracking-[0.05em] mb-8">2% cashback for regular delegators!</p>
+        <p className="text-base font-bold tracking-[0.05em] mb-8 border-l-2 border-[hsl(var(--accent))] pl-4 italic">2% cashback for our delegators!</p>
 
         <div className="flex flex-col md:flex-row gap-12">
           {/* Text left */}
@@ -30,7 +30,7 @@ const Staking: FC = () => (
               validators and projects who want real privacy. No one else does it like us.&quot;
             </p>
             <p>
-              We use Multi-party computation software (
+              Wherever possible we use Multi-party computation software (
               <Link
                 href="https://github.com/strangelove-ventures/horcrux"
                 target="_blank"
@@ -39,8 +39,8 @@ const Staking: FC = () => (
               >
                 Horcrux
               </Link>
-              ) on all our nodes, to protect stakers from double signing. We use Re-Stake on our mainnet nodes, set to
-              restake twice per day, so users can compound their staking rewards more efficiently.
+              ), to protect stakers from double signing, and Re-Stake (twice per day) to maximize staking rewards
+              compounding.
             </p>
           </div>
 
@@ -69,7 +69,7 @@ const Staking: FC = () => (
                 Architecture
               </Link>
             </div>
-            <div className="flex gap-4 md:gap-6 justify-center mt-4">
+            <div className="flex gap-4 md:gap-6 justify-center mt-8">
               <Image src="/medals/eco.svg" alt="Green Energy" width={136} height={136} title="Green Energy" className="w-12 h-auto hover:scale-105 transition-transform" />
               <Image src="/medals/github.svg" alt="Github" width={136} height={136} title="Github" className="w-12 h-auto hover:scale-105 transition-transform" />
               <Image src="/medals/horcrux.svg" alt="Horcrux" width={136} height={136} title="Key Sharding via Horcrux" className="w-12 h-auto hover:scale-105 transition-transform" />
@@ -90,7 +90,7 @@ const Staking: FC = () => (
         <div className="flex flex-col md:flex-row gap-12">
           {/* Text + list left */}
           <div className="md:w-3/5">
-            <p className="font-bold text-base leading-10 tracking-[0.05em] mb-6">
+            <p className="text-base font-bold tracking-[0.05em] mb-6 border-l-2 border-[hsl(var(--accent))] pl-4 italic leading-10">
               Custom dashboard and off-grid setup for your fund and piece of mind.
               <br />
               No AWS/Google – truly independent nodes in the middle of the ocean.
@@ -110,7 +110,7 @@ const Staking: FC = () => (
             <div className="grid grid-cols-2 gap-4 md:gap-8 w-full">
               <Link href="https://t.me/citizenweb3" target="_blank" rel="noopener noreferrer" className={ctaBtnClass}>
                 <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
-                Contact Us
+                Quote
               </Link>
               <Link href="https://bvc.citizenweb3.com/" target="_blank" rel="noopener noreferrer" className={ctaBtnClass}>
                 <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />

@@ -33,7 +33,7 @@ const About: FC = () => {
           alt="about us"
           width={920}
           height={855}
-          className="mx-auto mb-12 md:mb-16 w-[28.75rem] h-auto"
+          className="mx-auto mb-12 md:mb-16 w-[18rem] md:w-[28.75rem] h-auto"
         />
         <div className="">
           <BlockText text={text} />

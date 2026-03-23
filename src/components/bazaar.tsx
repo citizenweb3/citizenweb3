@@ -149,21 +149,21 @@ function BazaarCard({
   blur?: boolean;
 }) {
   const content = (
-    <Card className="group relative h-[30rem] w-[30rem] rounded-4xl hover:rounded-b-none md:h-[55rem] md:w-[55rem] snap-center shrink-0 py-24 transition-transform duration-300 hover:-translate-y-0.5">
-      <div className="text-center text-5xl">{title}</div>
-      <div className="mt-[1rem] md:mt-[6rem] flex w-full items-center justify-center rounded-xl">
+    <Card className="group relative h-[22rem] w-[22rem] rounded-4xl hover:rounded-b-none md:h-[40rem] md:w-[40rem] snap-center shrink-0 py-12 md:py-16 transition-transform duration-300 hover:-translate-y-0.5">
+      <div className="text-center text-3xl md:text-5xl">{title}</div>
+      <div className="mt-[1rem] md:mt-[4rem] flex w-full items-center justify-center rounded-xl">
         <Image
           src={imgSrc}
           alt={title}
           width={400}
           height={400}
           className={twMerge(
-            'h-[12rem] w-[12rem] md:h-[33rem] md:w-[33rem] rounded-full object-cover',
+            'h-[10rem] w-[10rem] md:h-[24rem] md:w-[24rem] rounded-full object-cover',
             blur ? 'group-hover:blur-sm' : '',
           )}
         />
       </div>
-      <div className="absolute top-[55rem] left-0 right-0 text-2xl hidden group-hover:block z-50 rounded-b-4xl bg-linear-to-t from-[#7C7C81]/25 to-[#7C7C81]/25 pt-0 px-12 pb-8 shadow-card">
+      <div className="absolute top-[40rem] left-0 right-0 text-xl md:text-2xl hidden group-hover:block z-50 rounded-b-4xl bg-linear-to-t from-[#7C7C81]/25 to-[#7C7C81]/25 pt-0 px-8 md:px-12 pb-6 md:pb-8 shadow-card">
         {description || 'Under Development'}
       </div>
     </Card>
@@ -237,7 +237,7 @@ const Bazaar: FC = () => {
   }, [active, items.length]);
 
   return (
-    <section className="relative w-full bg-black text-white py-8 md:py-12">
+    <section className="relative w-full bg-black text-white py-4 md:py-8">
       <div className="max-w-[80vw] mx-auto mb-8">
         <h2 className="mb-2 text-left text-2xl font-bold tracking-[0.05em]">{title}</h2>
         <div className="w-full h-px bg-white/50" />
@@ -256,8 +256,8 @@ const Bazaar: FC = () => {
               <div
                 key={it.id}
                 className={twMerge(
-                  `w-[21rem] md:w-[36rem] shrink-0 snap-center flex items-center justify-center transition-all duration-300`,
-                  i === active && 'px-20',
+                  `w-[18rem] md:w-[30rem] shrink-0 snap-center flex items-center justify-center transition-all duration-300`,
+                  i === active && 'px-12 md:px-20',
                 )}
               >
                 <div className={`transition-transform duration-300 ${i === active ? 'scale-75 z-10' : 'scale-50'}`}>

@@ -29,16 +29,6 @@ const partners = [
     icon: '/tools/ca.png',
     href: 'https://cyberacademy.dev',
   },
-  {
-    title: 'White Hacker',
-    icon: '/tools/wh.png',
-    href: 'https://t.me/WhiteHackerRu',
-  },
-  {
-    title: 'Voting Power',
-    icon: '/tools/vp.webp',
-    href: 'https://votingpower.org',
-  },
 ];
 
 const BottomCards: FC = () => (
