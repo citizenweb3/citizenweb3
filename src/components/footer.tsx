@@ -13,7 +13,7 @@ const Footer: FC = () => {
             <Link target="_blank" rel="noopener noreferrer" href="https://validatorinfo.com">
               ValidatorInfo
             </Link>
-            <Link target="_blank" rel="noopener noreferrer" href="https://podcast.citizenweb3.com">
+            <Link href="https://podcast.citizenweb3.com">
               Podcast
             </Link>
             <Link target="_blank" rel="noopener noreferrer" href="https://t.me/web_3_society">
@@ -21,7 +21,7 @@ const Footer: FC = () => {
             </Link>
           </div>
           <div className="*:font-light *:text-base space-y-2 *:block">
-            <Link target="_blank" rel="noopener noreferrer" href="https://bvc.citizenweb3.com">
+            <Link href="https://bvc.citizenweb3.com">
               B.V.C.
             </Link>
             <Link href="/bazaar">Bazaar</Link>
@@ -29,13 +29,13 @@ const Footer: FC = () => {
             <Link href="/#contacts">Contacts</Link>
           </div>
           <div className="*:font-light *:text-base space-y-2 *:block">
-            <Link target="_blank" rel="noopener noreferrer" href="https://privacy.citizenweb3.com">
-              Privacy Forums
+            <Link href="https://privacy.citizenweb3.com">
+              Privacy
             </Link>
-            <Link target="_blank" rel="noopener noreferrer" href="https://agents.citizenweb3.com">
+            <Link href="https://agents.citizenweb3.com">
               AI Agents
             </Link>
-            <Link target="_blank" rel="noopener noreferrer" href="https://monitor.citizenweb3.com">
+            <Link href="https://monitor.citizenweb3.com">
               Monitor
             </Link>
             <Link href="/#careers">Careers</Link>

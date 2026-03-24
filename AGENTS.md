@@ -4,7 +4,7 @@ Agent-specific guidance for autonomous work in this repository.
 
 ## Critical Context
 
-This is a **static landing site** with 3 pages and ~15 components. There are no API routes, no database, no auth, no server actions. The entire codebase is presentational. Changes are almost always about:
+This is a **static landing site** with 3 pages and ~12 components. There are no API routes, no database, no auth, no server actions. The entire codebase is presentational. The privacy page lives in a separate project (`cw3-privacy` at `privacy.citizenweb3.com`). Changes are almost always about:
 1. Adding/modifying visual sections on existing pages
 2. Adding a new page (rare)
 3. Updating content data (links, descriptions, items in arrays)
@@ -24,9 +24,9 @@ Shared across ALL pages:
   BlockBorder →  (standalone, no deps)
 
 Primitives used by multiple components:
-  Card       ←  used by: ToolsGrid, About, Achivements, BazaarCard
+  Card       ←  used by: ToolsGrid, About, Achivements, Bazaar
   BlockTitle ←  used by: Manifesto, Staking*, About, Achivements
-  BlockText  ←  used by: Manifesto, Staking*, About
+  BlockText  ←  used by: Manifesto, About
 
 * staking.tsx exports as "Manifesto" (legacy naming)
 ```
@@ -103,9 +103,9 @@ Before marking work complete:
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **citizenweb3** (107 symbols, 134 relationships, 1 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **citizenweb3** (120 symbols, 145 relationships, 1 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
-> If any GitNexus tool warns the index is stale, run `gitnexus analyze` in terminal first.
+> If any GitNexus tool warns the index is stale, run `npx gitnexus analyze` in terminal first.
 
 ## Always Do
 
@@ -173,8 +173,8 @@ Before completing any code modification task, verify:
 
 ## CLI
 
-- Re-index: `gitnexus analyze`
-- Check freshness: `gitnexus status`
-- Generate docs: `gitnexus wiki`
+- Re-index: `npx gitnexus analyze`
+- Check freshness: `npx gitnexus status`
+- Generate docs: `npx gitnexus wiki`
 
 <!-- gitnexus:end -->

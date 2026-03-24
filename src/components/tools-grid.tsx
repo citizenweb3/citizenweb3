@@ -70,7 +70,7 @@ const items = [
     href: 'https://privacy.citizenweb3.com',
     description:
       'Privacy-focused community forums. Discuss Web3 privacy, censorship resistance, and decentralized infrastructure.',
-    underDevelopment: true,
+    underDevelopment: false,
   },
   {
     title: 'AI Agents',
@@ -78,7 +78,7 @@ const items = [
     href: 'https://agents.citizenweb3.com',
     description:
       'We are developing AI agents that help with staking, node monitoring, governance voting, and more. First one is already live on ValidatorInfo.',
-    underDevelopment: false,
+    underDevelopment: true,
   },
   {
     title: 'API',
@@ -104,23 +104,23 @@ export function ToolsGrid() {
       <div className="max-w-[80vw] mx-auto px-4">
         <h2 className="mb-4 text-left text-2xl font-bold tracking-wide">Tools, Projects and Public Goods</h2>
         <div className="w-full h-px bg-white/50 mb-12" />
-        <div className="grid gap-x-16 gap-y-8 grid-cols-2 md:grid-cols-4">
+        <div className="grid gap-x-4 gap-y-6 md:gap-x-16 md:gap-y-8 grid-cols-2 md:grid-cols-4">
           {items.map((item) => (
-            <a key={item.title} href={item.href} className="group no-underline text-white h-[27rem] block hover:z-50">
-              <Card className="transition py-6">
+            <a key={item.title} href={item.href} className="group no-underline text-white min-h-[14rem] md:h-[27rem] block hover:z-50">
+              <Card className="transition py-4 px-4 md:py-6 md:px-14">
                 <div className="flex items-center justify-center text-2xl">
                   <span className="text-nowrap">{item.title}</span>
                 </div>
-                <div className="mt-8 flex h-28 items-center justify-center rounded-xl">
+                <div className="mt-4 md:mt-8 flex h-16 md:h-28 items-center justify-center rounded-xl">
                   <Image
                     src={item.icon}
                     alt={item.title}
                     width={138}
                     height={138}
-                    className={`opacity-90 w-32 h-32 rounded-full ${item.underDevelopment ? 'grayscale-100 group-hover:grayscale-0' : ''}`}
+                    className={`opacity-90 w-16 h-16 md:w-32 md:h-32 object-contain rounded-full ${item.underDevelopment ? 'grayscale-100 group-hover:grayscale-0' : ''}`}
                   />
                 </div>
-                <div className="mt-8 hidden group-hover:block">{item.description}</div>
+                <div className="mt-4 md:mt-8 text-xs md:text-base md:hidden md:group-hover:block">{item.description}</div>
               </Card>
             </a>
           ))}

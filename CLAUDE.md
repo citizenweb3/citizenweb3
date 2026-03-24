@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Citizen Web3 landing site — a static Next.js 15 website for a non-custodial, self-hosted bare-metal blockchain validator. Three pages: home (`/`), validator (`/validator`), bazaar (`/bazaar`). No API routes, no database, no i18n — pure presentational SSR/SSG.
 
-Live: citizenweb3.com | Staking dashboard (separate app): staking.citizenweb3.com
+Live: citizenweb3.com | Staking dashboard (separate app): staking.citizenweb3.com | Privacy forum (separate project `cw3-privacy`): privacy.citizenweb3.com
 
 ## Commands
 
@@ -179,9 +179,9 @@ gitnexus analyze     # Re-index GitNexus graph
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **citizenweb3** (107 symbols, 134 relationships, 1 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **citizenweb3** (120 symbols, 145 relationships, 1 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
-> If any GitNexus tool warns the index is stale, run `gitnexus analyze` in terminal first.
+> If any GitNexus tool warns the index is stale, run `npx gitnexus analyze` in terminal first.
 
 ## Always Do
 
@@ -249,9 +249,9 @@ Before completing any code modification task, verify:
 
 ## CLI
 
-- Re-index: `gitnexus analyze`
-- Check freshness: `gitnexus status`
-- Generate docs: `gitnexus wiki`
+- Re-index: `npx gitnexus analyze`
+- Check freshness: `npx gitnexus status`
+- Generate docs: `npx gitnexus wiki`
 
 <!-- gitnexus:end -->
 

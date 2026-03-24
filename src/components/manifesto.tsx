@@ -4,7 +4,7 @@ import BlockText from '@/components/block-text';
 import Link from 'next/link';
 
 const text = (
-  <div className="space-y-2">
+  <div className="space-y-6">
     <p>We are not here to chase hype. We are here to build decentralization.</p>
     <p>We are here to build the infrastructure layer that outlives every cycle — self-sovereign, privacy-preserving, sustainable, and now intelligent.</p>
     <p>We believe in freedom above needs, possibilities above enforcement, and values above desires.</p>
