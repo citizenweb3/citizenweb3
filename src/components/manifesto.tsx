@@ -14,7 +14,10 @@ const text = (
         pale blue dot
       </Link>...
     </p>
-    <p>&quot;Our planet is a lonely speck… In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.&quot;<br />— Carl Sagan</p>
+    <blockquote className="border-l-2 border-[hsl(var(--accent))] pl-4 text-white/80">
+      <p>&quot;Our planet is a lonely speck… In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.&quot;</p>
+      <footer className="mt-2 text-[hsl(var(--muted))]">— Carl Sagan</footer>
+    </blockquote>
     <p>We envision Web3 defined by communication, cross-ecosystem respect, privacy and collective growth.</p>
     <p>We are building that help — one validator, one explorer, one autonomous AI at a time.</p>
     <p>May the code be with you.</p>
