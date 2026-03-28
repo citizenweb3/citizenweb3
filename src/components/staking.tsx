@@ -14,7 +14,7 @@ const Staking: FC = () => (
         <BlockTitle title="Non Custodial Staking with Citizen Web3 Validator" className="text-left" />
         <div className="w-full h-px bg-white/50 mb-8" />
 
-        <p className="text-base font-bold tracking-[0.05em] mb-8 border-l-2 border-[hsl(var(--accent))] pl-4 italic">2% cashback for our delegators!</p>
+        <p className="text-base font-bold tracking-[0.05em] mb-8 border-l-2 border-[hsl(var(--accent))] pl-4">2% cashback for our delegators!</p>
 
         <div className="flex flex-col md:flex-row gap-12">
           {/* Text left */}
@@ -69,7 +69,7 @@ const Staking: FC = () => (
                 Architecture
               </Link>
             </div>
-            <div className="flex gap-4 md:gap-6 justify-center mt-8">
+            <div className="flex gap-4 md:gap-6 justify-center mt-12">
               <Image src="/medals/eco.svg" alt="Green Energy" width={136} height={136} title="Green Energy" className="w-12 h-auto hover:scale-105 transition-transform" />
               <Image src="/medals/github.svg" alt="Github" width={136} height={136} title="Github" className="w-12 h-auto hover:scale-105 transition-transform" />
               <Image src="/medals/horcrux.svg" alt="Horcrux" width={136} height={136} title="Key Sharding via Horcrux" className="w-12 h-auto hover:scale-105 transition-transform" />
@@ -90,7 +90,7 @@ const Staking: FC = () => (
         <div className="flex flex-col md:flex-row gap-12">
           {/* Text + list left */}
           <div className="md:w-3/5">
-            <p className="text-base font-bold tracking-[0.05em] mb-6 border-l-2 border-[hsl(var(--accent))] pl-4 italic leading-10">
+            <p className="text-base font-bold tracking-[0.05em] mb-6 border-l-2 border-[hsl(var(--accent))] pl-4 leading-10">
               Custom dashboard and off-grid setup for your fund and piece of mind.
               <br />
               No AWS/Google – truly independent nodes in the middle of the ocean.

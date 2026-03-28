@@ -25,7 +25,7 @@ const MenuItem: FC<{ title: string; href: string; onClick: () => void }> = ({ ti
     <Link
       href={href}
       onClick={onClick}
-      className="w-40 px-4 py-2.5 rounded-[10px] z-10 text-xl text-center cursor-pointer border-b-4 border-transparent hover:border-[#3e3e3e] hover:rounded-b-[10px] hover:scale-105 active:scale-100 active:border-transparent hover:no-underline"
+      className="w-[110px] h-[34px] md:w-[193px] md:h-[47px] flex items-center justify-center bg-[#1A1A1B] border-b border-[#262626] rounded-[10px] z-10 text-lg md:text-[22px] font-semibold tracking-[1.1px] text-center text-white cursor-pointer hover:bg-[#262626] transition-colors hover:no-underline"
       target={href.startsWith('http') && !href.includes('citizenweb3') ? '_blank' : '_self'}
       rel={href.startsWith('http') && !href.includes('citizenweb3') ? 'noopener noreferrer' : undefined}
     >
@@ -47,7 +47,7 @@ const Menu: FC = () => {
     <div ref={ref} className="absolute top-10 right-10 flex items-center justify-center flex-col z-50 p-4 space-y-2">
       <div
         onClick={() => setIsMenuOpened(!isMenuOpened)}
-        className="w-40 px-4 py-2.5 rounded-[10px] z-10 text-xl text-center cursor-pointer border-b-4 border-transparent hover:border-[#3e3e3e] hover:rounded-b-[10px] hover:scale-105 active:scale-100 active:border-transparent"
+        className="w-[110px] h-[34px] md:w-[193px] md:h-[47px] flex items-center justify-center bg-[#1A1A1B] border-b border-[#262626] rounded-[10px] z-10 text-lg md:text-[22px] font-semibold tracking-[1.1px] text-center text-white cursor-pointer hover:bg-[#262626] transition-colors"
       >
         Menu
       </div>
