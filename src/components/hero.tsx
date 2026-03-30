@@ -14,14 +14,14 @@ const Hero: FC<OwnProps> = ({ title, subtitle, variant = 'default' }) => {
   return (
     <section className={variant === 'home' ? 'relative min-w-screen pt-40 pb-10' : 'relative min-w-screen min-h-screen pb-20'}>
       {variant === 'home' ? (
-        <Link href="/" className="absolute top-10 left-10 z-50">
+        <Link href="/" className="absolute top-10 left-[6vw] z-50">
           <Image src="/logo-full.svg" alt="Citizen Web3" width={476} height={55} priority className="w-[25vw] max-w-[476px] h-auto" />
         </Link>
       ) : (
         <Image src="/header-bg.svg" alt="bg" fill priority className="object-cover -z-10 min-h-screen min-w-screen" />
       )}
       <Menu />
-      <div className={variant === 'home' ? 'max-w-[80vw] mx-auto flex flex-col items-center justify-center gap-6 px-4 text-center' : 'max-w-[80vw] mx-auto flex min-h-[56svh] flex-col items-center justify-center gap-8 xl:gap-32 px-4 text-center md:min-h-[70svh]'}>
+      <div className={variant === 'home' ? 'max-w-[88vw] mx-auto flex flex-col items-center justify-center gap-6 px-4 text-center' : 'max-w-[88vw] mx-auto flex min-h-[56svh] flex-col items-center justify-center gap-8 xl:gap-32 px-4 text-center md:min-h-[70svh]'}>
         {variant === 'default' && (
           <Link href="/" className="w-full flex justify-center">
             <Image src="/logo.svg" alt="Citizen Web3" width={1110} height={121} priority className="w-2/3" />

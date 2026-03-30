@@ -26,7 +26,7 @@ const text = (
 
 const Manifesto: FC = () => (
   <section id="manifesto" className="py-8 md:py-12">
-    <div className="max-w-[80vw] text-justify md:text-left mx-auto">
+    <div className="max-w-[88vw] text-justify md:text-left mx-auto">
       <BlockTitle title={'Manifesto'} className="text-left" />
       <div className="w-full h-px bg-white/50 mb-8" />
       <BlockText text={text} />

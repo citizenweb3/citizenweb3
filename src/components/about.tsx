@@ -23,11 +23,11 @@ const text2 = (
 const About: FC = () => {
   return (
     <section id="about" className="py-8 md:py-12">
-      <div className="max-w-[80vw] mx-auto">
+      <div className="max-w-[88vw] mx-auto">
         <BlockTitle title={'About us'} className="text-left" />
         <div className="w-full h-px bg-white/50 mb-8" />
       </div>
-      <div className="max-w-[80vw] mx-auto flex flex-col md:flex-row justify-center items-center space-x-12">
+      <div className="max-w-[88vw] mx-auto flex flex-col md:flex-row justify-center items-center space-x-12">
         <Image
           src="/about-cards.png"
           alt="about us"

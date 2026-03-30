@@ -10,7 +10,7 @@ const Staking: FC = () => (
   <>
     {/* Section 1: Non Custodial Staking */}
     <section id="staking" className="py-8 md:pb-12 md:pt-16">
-      <div className="max-w-[80vw] mx-auto">
+      <div className="max-w-[88vw] mx-auto">
         <BlockTitle title="Non Custodial Staking with Citizen Web3 Validator" className="text-left" />
         <div className="w-full h-px bg-white/50 mb-8" />
 
@@ -83,7 +83,7 @@ const Staking: FC = () => (
 
     {/* Section 2: Enterprise Privacy Baremetal Staking */}
     <section id="enterprise" className="py-8 md:py-12">
-      <div className="max-w-[80vw] mx-auto">
+      <div className="max-w-[88vw] mx-auto">
         <BlockTitle title="Enterprise Privacy Baremetal Staking" className="text-left" />
         <div className="w-full h-px bg-white/50 mb-8" />
 

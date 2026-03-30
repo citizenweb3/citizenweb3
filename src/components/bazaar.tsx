@@ -238,7 +238,7 @@ const Bazaar: FC = () => {
 
   return (
     <section className="relative w-full bg-black text-white py-4 md:py-8">
-      <div className="max-w-[80vw] mx-auto mb-8">
+      <div className="max-w-[88vw] mx-auto mb-8">
         <h2 className="mb-2 text-left text-2xl font-bold tracking-[0.05em]">{title}</h2>
         <div className="w-full h-px bg-white/50" />
       </div>

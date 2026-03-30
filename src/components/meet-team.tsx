@@ -9,7 +9,7 @@ const MeetTeam: FC = () => {
   const [isOpened, setIsOpened] = useState<boolean>(false);
   return (
     <>
-      <div className="flex justify-end mt-8 max-w-[80vw] mx-auto">
+      <div className="flex justify-end mt-8 max-w-[88vw] mx-auto">
         <button
           onClick={() => setIsOpened(true)}
           className="relative py-3 px-6 md:py-4 md:px-10 font-bold text-lg md:text-2xl text-center bg-[#1A1A1B] rounded-[9px] hover:bg-[#ffffff]/15 cursor-pointer"
