@@ -44,18 +44,26 @@ const Menu: FC = () => {
   });
 
   return (
-    <div ref={ref} className="absolute top-10 right-10 flex items-center justify-center flex-col z-50 p-4 space-y-2">
-      <div
-        onClick={() => setIsMenuOpened(!isMenuOpened)}
-        className="w-[110px] h-[34px] md:w-[193px] md:h-[47px] flex items-center justify-center bg-[#1A1A1B] border-b border-[#262626] rounded-[10px] z-10 text-lg md:text-[22px] font-semibold tracking-[1.1px] text-center text-white cursor-pointer hover:bg-[#262626] transition-colors"
-      >
-        Menu
+    <>
+      {isMenuOpened && (
+        <div
+          className="fixed inset-0 z-40 backdrop-blur-md bg-black/30"
+          onClick={() => setIsMenuOpened(false)}
+        />
+      )}
+      <div ref={ref} className="absolute top-10 right-[6vw] flex items-center justify-center flex-col z-50 p-4 space-y-2">
+        <div
+          onClick={() => setIsMenuOpened(!isMenuOpened)}
+          className="w-[110px] h-[34px] md:w-[193px] md:h-[47px] flex items-center justify-center bg-[#1A1A1B] border-b border-[#262626] rounded-[10px] z-10 text-lg md:text-[22px] font-semibold tracking-[1.1px] text-center text-white cursor-pointer hover:bg-[#262626] transition-colors"
+        >
+          Menu
+        </div>
+        {isMenuOpened &&
+          menuItems.map((item) => (
+            <MenuItem key={item.title} title={item.title} href={item.href} onClick={() => setIsMenuOpened(false)} />
+          ))}
       </div>
-      {isMenuOpened &&
-        menuItems.map((item) => (
-          <MenuItem key={item.title} title={item.title} href={item.href} onClick={() => setIsMenuOpened(false)} />
-        ))}
-    </div>
+    </>
   );
 };
 

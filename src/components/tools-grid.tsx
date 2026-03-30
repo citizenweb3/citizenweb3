@@ -158,7 +158,7 @@ const isInternalLink = (href: string) => href.startsWith('/');
 export function ToolsGrid() {
   return (
     <section id="tools" className="py-8 md:pt-12 pb-8">
-      <div className="max-w-[80vw] mx-auto px-4">
+      <div className="max-w-[88vw] mx-auto px-4">
         <h2 className="mb-4 text-left text-2xl font-bold tracking-wide">Tools, Projects and Public Goods</h2>
         <div className="w-full h-px bg-white/50 mb-10" />
         {groups.map((group) => (

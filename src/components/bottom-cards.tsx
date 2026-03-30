@@ -33,7 +33,7 @@ const partners = [
 
 const BottomCards: FC = () => (
   <section className="py-16 md:py-20">
-    <div className="w-[90vw] mx-auto flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 *:w-full *:md:w-auto">
+    <div className="max-w-[88vw] w-full mx-auto flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 *:w-full *:md:w-auto">
       <Card className="flex justify-between flex-col items-center space-y-6">
         <div id="contacts" className="text-2xl">
           Contacts

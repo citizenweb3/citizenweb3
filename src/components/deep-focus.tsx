@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const DeepFocus: FC = () => (
   <section id="deep-focus" className="py-8 md:py-12">
-    <div className="max-w-[80vw] mx-auto">
+    <div className="max-w-[88vw] mx-auto">
       <BlockTitle title="Our Deep Focus and Goals" className="text-left mb-2" />
       <div className="w-full h-px bg-white/50 mb-8" />
       <BlockText

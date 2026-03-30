@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer: FC = () => {
   return (
-    <div className="max-w-[80vw] mx-auto py-8 text-white">
+    <div className="max-w-[88vw] mx-auto py-8 text-white">
       <div className="text-2xl font-normal mb-6">Ⓕ  May the Code be with You</div>
       <div className="w-full h-px bg-white/50 mb-8" />
       <div className="flex justify-center">
