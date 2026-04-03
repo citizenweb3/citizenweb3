@@ -14,7 +14,9 @@ const Staking: FC = () => (
         <BlockTitle title="Non Custodial Staking with Citizen Web3 Validator" className="text-left" />
         <div className="w-full h-px bg-white/50 mb-8" />
 
-        <p className="text-base font-bold tracking-[0.05em] mb-8 border-l-2 border-[hsl(var(--accent))] pl-4">2% cashback for our delegators!</p>
+        <p className="text-base font-bold tracking-[0.05em] mb-8 border-l-2 border-[hsl(var(--accent))] pl-4">
+          2% cashback for our delegators!
+        </p>
 
         <div className="flex flex-col md:flex-row gap-12">
           {/* Text left */}
@@ -47,16 +49,44 @@ const Staking: FC = () => (
           {/* Buttons + medals right */}
           <div className="md:w-2/5 flex flex-col items-center gap-6">
             <div className="grid grid-cols-2 gap-4 md:gap-12">
-              <Link href="https://staking.citizenweb3.com/" target="_blank" rel="noopener noreferrer" className={ctaBtnClass}>
-                <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
+              <Link
+                href="https://staking.citizenweb3.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={ctaBtnClass}
+              >
+                <Image
+                  src="/arrow.svg"
+                  alt="arrow"
+                  width={12}
+                  height={12}
+                  className="absolute top-3 right-3 w-3 h-auto"
+                />
                 Staking
               </Link>
-              <Link href="https://monitor.citizenweb3.com" target="_blank" rel="noopener noreferrer" className={ctaBtnClass}>
-                <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
+              <Link
+                href="https://monitor.citizenweb3.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={ctaBtnClass}
+              >
+                <Image
+                  src="/arrow.svg"
+                  alt="arrow"
+                  width={12}
+                  height={12}
+                  className="absolute top-3 right-3 w-3 h-auto"
+                />
                 Monitor
               </Link>
               <Link href="#" className={ctaBtnClass}>
-                <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
+                <Image
+                  src="/arrow.svg"
+                  alt="arrow"
+                  width={12}
+                  height={12}
+                  className="absolute top-3 right-3 w-3 h-auto"
+                />
                 Dashboard
               </Link>
               <Link
@@ -65,16 +95,57 @@ const Staking: FC = () => (
                 rel="noopener noreferrer"
                 className={ctaBtnClass}
               >
-                <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
+                <Image
+                  src="/arrow.svg"
+                  alt="arrow"
+                  width={12}
+                  height={12}
+                  className="absolute top-3 right-3 w-3 h-auto"
+                />
                 Architecture
               </Link>
             </div>
             <div className="flex gap-4 md:gap-6 justify-center mt-12">
-              <Image src="/medals/eco.svg" alt="Green Energy" width={136} height={136} title="Green Energy" className="w-12 h-auto hover:scale-105 transition-transform" />
-              <Image src="/medals/github.svg" alt="Github" width={136} height={136} title="Github" className="w-12 h-auto hover:scale-105 transition-transform" />
-              <Image src="/medals/horcrux.svg" alt="Horcrux" width={136} height={136} title="Key Sharding via Horcrux" className="w-12 h-auto hover:scale-105 transition-transform" />
-              <Image src="/medals/restake.svg" alt="ReStake" width={136} height={136} title="Auto Reward Re-Stake x2 p/day" className="w-12 h-auto hover:scale-105 transition-transform" />
-              <Image src="/medals/keyhole.svg" alt="Open Source" width={136} height={136} title="Open Source" className="w-12 h-auto hover:scale-105 transition-transform" />
+              <Image
+                src="/medals/eco.svg"
+                alt="Green Energy"
+                width={136}
+                height={136}
+                title="Green Energy"
+                className="w-12 h-auto hover:scale-105 transition-transform"
+              />
+              <Image
+                src="/medals/github.svg"
+                alt="Github"
+                width={136}
+                height={136}
+                title="Github"
+                className="w-12 h-auto hover:scale-105 transition-transform"
+              />
+              <Image
+                src="/medals/horcrux.svg"
+                alt="Horcrux"
+                width={136}
+                height={136}
+                title="Key Sharding via Horcrux"
+                className="w-12 h-auto hover:scale-105 transition-transform"
+              />
+              <Image
+                src="/medals/restake.svg"
+                alt="ReStake"
+                width={136}
+                height={136}
+                title="Auto Reward Re-Stake x2 p/day"
+                className="w-12 h-auto hover:scale-105 transition-transform"
+              />
+              <Image
+                src="/medals/keyhole.svg"
+                alt="Open Source"
+                width={136}
+                height={136}
+                title="Open Source"
+                className="w-12 h-auto hover:scale-105 transition-transform"
+              />
             </div>
           </div>
         </div>
@@ -109,11 +180,28 @@ const Staking: FC = () => (
           <div className="md:w-2/5 flex items-end">
             <div className="grid grid-cols-2 gap-4 md:gap-8 w-full">
               <Link href="https://t.me/citizenweb3" target="_blank" rel="noopener noreferrer" className={ctaBtnClass}>
-                <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
+                <Image
+                  src="/arrow.svg"
+                  alt="arrow"
+                  width={12}
+                  height={12}
+                  className="absolute top-3 right-3 w-3 h-auto"
+                />
                 Quote
               </Link>
-              <Link href="https://bvc.citizenweb3.com/" target="_blank" rel="noopener noreferrer" className={ctaBtnClass}>
-                <Image src="/arrow.svg" alt="arrow" width={12} height={12} className="absolute top-3 right-3 w-3 h-auto" />
+              <Link
+                href="https://bvc.citizenweb3.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={ctaBtnClass}
+              >
+                <Image
+                  src="/arrow.svg"
+                  alt="arrow"
+                  width={12}
+                  height={12}
+                  className="absolute top-3 right-3 w-3 h-auto"
+                />
                 Join B.V.C.
               </Link>
             </div>

@@ -39,7 +39,7 @@ const groups: ToolGroup[] = [
       {
         title: 'Enterprise Staking',
         icon: '/cw3.png',
-        href: 'https://www.citizenweb3.com/validator',
+        href: 'https://www.citizenweb3.com/validator#enterprise',
         description:
           'Enterprise-grade bare-metal staking infrastructure. Self-hosted, off-the-grid, with Horcrux key sharding and auto-restaking.',
         underDevelopment: false,
