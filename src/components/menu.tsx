@@ -16,6 +16,7 @@ const menuItems = [
   { title: 'B.V.C.', href: 'https://bvc.citizenweb3.com' },
   { title: 'Bazaar', href: '/bazaar' },
   { title: 'Privacy', href: 'https://privacy.citizenweb3.com' },
+  { title: 'Agents', href: 'https://agents.citizenweb3.com' },
   { title: 'About Us', href: '/#about' },
   { title: 'Contacts', href: '/#contacts' },
 ];
