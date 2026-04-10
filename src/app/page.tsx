@@ -13,7 +13,7 @@ export default function Page() {
       <main>
         <Hero
           variant="home"
-          title={'Citizen Web3: Self-Hosted Bare-Metal Provider\nDeveloping AI Agent Tools for Web3'}
+          title={'Citizen Web3: Self-Hosted Bare-Metal Provider\nDeveloping and Integrating AI Agent Tools'}
           subtitle={'No Cloud. No Masters.\nOff-grid Atlantic infrastructure powered by humans and AI agents. Home of ValidatorInfo.com & More'}
         />
         <ToolsGrid />
