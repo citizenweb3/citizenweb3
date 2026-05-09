@@ -14,7 +14,7 @@ export default function Page() {
         <Hero
           variant="home"
           title={'Citizen Web3: Self-Hosted Bare-Metal Provider\nDeveloping and Integrating AI Agent Tools'}
-          subtitle={'No Cloud. No Masters.\nOff-grid Atlantic infrastructure powered by humans and AI agents. Home of ValidatorInfo.com & More'}
+          subtitle={'No Cloud. No Masters.\nOff-grid Atlantic infrastructure powered by humans and AI agents.\nHome of ValidatorInfo.com'}
         />
         <ToolsGrid />
         <DeepFocus />

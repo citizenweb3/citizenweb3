@@ -105,47 +105,77 @@ const Staking: FC = () => (
                 Architecture
               </Link>
             </div>
-            <div className="flex gap-4 md:gap-6 justify-center mt-12">
-              <Image
-                src="/medals/eco.svg"
-                alt="Green Energy"
-                width={136}
-                height={136}
-                title="Green Energy"
-                className="w-12 h-auto hover:scale-105 transition-transform"
-              />
-              <Image
-                src="/medals/github.svg"
-                alt="Github"
-                width={136}
-                height={136}
-                title="Github"
-                className="w-12 h-auto hover:scale-105 transition-transform"
-              />
-              <Image
-                src="/medals/horcrux.svg"
-                alt="Horcrux"
-                width={136}
-                height={136}
-                title="Key Sharding via Horcrux"
-                className="w-12 h-auto hover:scale-105 transition-transform"
-              />
-              <Image
-                src="/medals/restake.svg"
-                alt="ReStake"
-                width={136}
-                height={136}
-                title="Auto Reward Re-Stake x2 p/day"
-                className="w-12 h-auto hover:scale-105 transition-transform"
-              />
-              <Image
-                src="/medals/keyhole.svg"
-                alt="Open Source"
-                width={136}
-                height={136}
-                title="Open Source"
-                className="w-12 h-auto hover:scale-105 transition-transform"
-              />
+            <div className="mt-12">
+              <div className="flex gap-6 justify-center">
+                <Image
+                  src="/medals/green-energy-new.svg"
+                  alt="Green Energy"
+                  width={136}
+                  height={136}
+                  title="Green Energy"
+                  className="md:w-20 w-14 h-auto hover:scale-105 transition-transform"
+                />
+                <Image
+                  src="/medals/github-new.svg"
+                  alt="Github"
+                  width={136}
+                  height={136}
+                  title="Github"
+                  className="md:w-20 w-14 h-auto hover:scale-105 transition-transform"
+                />
+                <Image
+                  src="/medals/horcrux-new.svg"
+                  alt="Horcrux"
+                  width={136}
+                  height={136}
+                  title="Key Sharding via Horcrux"
+                  className="md:w-20 w-14 h-auto hover:scale-105 transition-transform"
+                />
+                <Image
+                  src="/medals/restake-new.svg"
+                  alt="ReStake"
+                  width={136}
+                  height={136}
+                  title="Auto Reward Re-Stake x2 p/day"
+                  className="md:w-20 w-14 h-auto hover:scale-105 transition-transform"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="flex gap-6 justify-center">
+                <Image
+                  src="/medals/open-source-new.svg"
+                  alt="Open Source"
+                  width={136}
+                  height={136}
+                  title="Open Source"
+                  className="md:w-20 w-14 h-auto hover:scale-105 transition-transform"
+                />
+                <Image
+                  src="/medals/shi-new.svg"
+                  alt="Self Hosted Infrastructure"
+                  width={136}
+                  height={136}
+                  title="Self Hosted Infrastructure"
+                  className="md:w-20 w-14 h-auto hover:scale-105 transition-transform"
+                />
+                <Image
+                  src="/medals/otgi-new.svg"
+                  alt="Off the grid infrastructure"
+                  width={136}
+                  height={136}
+                  title="Off the grid infrastructure"
+                  className="md:w-20 w-14 h-auto hover:scale-105 transition-transform"
+                />
+                <Image
+                  src="/medals/runs-public-nodes.svg"
+                  alt="Runs public nodes"
+                  width={136}
+                  height={136}
+                  title="Runs public nodes"
+                  className="md:w-20 w-14 h-auto hover:scale-105 transition-transform"
+                />
+              </div>
             </div>
           </div>
         </div>
